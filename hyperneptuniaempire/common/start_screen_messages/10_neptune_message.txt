@@ -1,0 +1,60 @@
+### Neptune Nations Script
+# Planeptune
+part = {
+	location = 0
+	localization = "START_SCREEN_NEP"
+	
+	trigger = {
+		has_country_flag = hyperd_1
+	}	
+}
+
+# Lowee
+part = {
+	location = 0
+	localization = "START_SCREEN_BLANC"
+	
+	trigger = {
+		has_country_flag = hyperd_2
+	}	
+}
+
+# Lastation
+part = {
+	location = 0
+	localization = "START_SCREEN_NOIRE"
+	
+	trigger = {
+		has_country_flag = hyperd_3
+	}	
+}
+
+# Leanbox
+part = {
+	location = 0
+	localization = "START_SCREEN_VERT"
+	
+	trigger = {
+		has_country_flag = hyperd_4
+	}	
+}
+
+# Iris
+part = {
+	location = 0
+	localization = "START_SCREEN_PLUT"
+	
+	trigger = {
+		has_country_flag = hyperd_5
+	}	
+}
+
+# Tari
+part = {
+	location = 0
+	localization = "START_SCREEN_TARI"
+	
+	trigger = {
+		has_country_flag = hyperd_6
+	}	
+}

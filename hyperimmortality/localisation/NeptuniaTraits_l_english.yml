@@ -1,0 +1,6 @@
+﻿l_english:
+ ####################################
+ # Traits
+ ####################################
+ trait_immortal:0 "Immortality"
+ trait_immortal_desc:0 "§LThis civilization has resolved the riddle of immortality and have expanded life for all citizens, however the goddess they worship has eternal life.§!\n"

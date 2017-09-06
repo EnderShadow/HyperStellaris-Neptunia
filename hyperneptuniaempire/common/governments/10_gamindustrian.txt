@@ -1,0 +1,54 @@
+# Neptune and Noire Governments
+cpu_mandate = {
+	use_regnal_names = yes
+	dynastic_last_names = yes
+	
+	possible = {
+		has_civic = civic_cpu
+	}
+	
+	ruler_title = RT_CPU
+	ruler_title_female = RT_CPU
+	heir_title = HT_CPU
+	heir_title_female = HT_CPU
+	
+	weight = {
+		base = 1000000
+	}
+}
+
+# Vert's Government
+cpu_solo_mandate = {
+	use_regnal_names = yes
+	dynastic_last_names = yes
+	
+	possible = {
+		has_civic = civic_cpu
+	}
+	
+	ruler_title = RT_CPU
+	ruler_title_female = RT_CPU
+	
+	weight = {
+		base = 1000000
+	}
+}
+
+# Blanc's Unique Government
+cpu_dual_mandate = {
+	use_regnal_names = yes
+	dynastic_last_names = yes
+	
+	possible = {
+		has_civic = civic_cpu
+	}
+	
+	ruler_title = RT_CPU
+	ruler_title_female = RT_CPU
+	heir_title = HT_CPU
+	heir_title_female = HT_CPU
+	
+	weight = {
+		base = 1000000
+	}
+}

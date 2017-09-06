@@ -1,0 +1,37 @@
+Neptunia = {
+	planeptune = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Planeptune"
+		home_system = Gamindustry
+		name_list = "Neptunia"
+	}
+	lowee = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Lowee"
+		home_system = Gamindustry
+		name_list = "Neptunia"
+	}
+	leanbox = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Leanbox"
+		home_system = Gamindustry
+		name_list = "Neptunia"
+	}
+	lastation = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Lastation"
+		home_system = Gamindustry
+		name_list = "Neptunia"
+	}
+	tari = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Tari"
+		home_system = Gamindustry
+		name_list = "Neptunia"
+	}
+}

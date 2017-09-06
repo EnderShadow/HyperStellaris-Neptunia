@@ -1,0 +1,366 @@
+## Neptune
+"Hyperdimension Neptunia" = {
+	name_list = "Neptunia"
+	ship_prefix = "HDD"	
+	species_name = "CPU"
+	species_plural = "CPUs"
+	species_class = "Neptunia"
+	species_adjective = "Consoles"
+	portrait = "planeptune"
+	name = "Hyperdimension Neptunia"
+	adjective = "Goddesses"
+	government = "cpu_mandate"
+	ftl = warp
+	weapon = "tech_lasers_1"
+	planet_name = "Planeptune"
+	planet_class = "pc_continental"
+	system_name = "Gamindustri"
+	initializer = "nep_system_initializer"
+	graphical_culture = "avian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	flags = { hyperd_1 custom_start_screen }
+	
+	empire_flag = {
+		icon={
+			category = "neptunia"
+			file = "flag_neptunia_1.dds"
+		}
+		background={
+			category = "backgrounds"
+			file = "new_dawn.dds"
+		}
+		colors={
+			"black"
+			"purple"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = female
+		name = "Purple Heart"
+		portrait = "neptune1"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title_female="Console Patron Unit"
+		heir_title_female="Purple Sister"
+	}
+	spawn_enabled = no
+	ethic = "ethic_xenophile"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_spiritualist"
+	trait = "trait_enduring"
+	trait = "trait_nonadaptive"
+	trait = "trait_natural_physicists"
+	trait = "trait_nomadic"
+	authority = "auth_imperial"
+	civics = { "civic_cpu", "civic_functional_architecture" }
+}
+## Noire
+"Hyperdevotion Noire" = {
+	name_list = "Neptunia"
+	ship_prefix = "HDD"
+	species_name = "CPU"
+	species_plural = "CPUs"
+	species_class = "Neptunia"
+	species_adjective = "Consoles"
+	portrait = "lastation"
+	name = "Hyperdevotion Noire"
+	adjective = "Goddesses"
+	government = "cpu_mandate"
+	ftl = warp
+	weapon = "tech_lasers_1"
+	planet_name = "Lastation"
+	planet_class = "pc_arid"
+	system_name = "Gamindustri"
+	initializer = "noir_system_initializer"
+	graphical_culture = "avian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	flags = { hyperd_3 custom_start_screen }
+	
+	empire_flag = {
+		icon={
+			category = "neptunia"
+			file = "flag_neptunia_2.dds"
+		}
+		background={
+			category = "backgrounds"
+			file = "diagonal.dds"
+		}
+		colors={
+			"black"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = female
+		name = "Black Heart"
+		portrait = "neptune2"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title_female="Console Patron Unit"
+		heir_title_female="Black Sister"
+	}
+	spawn_enabled = no
+	ethic = "ethic_materialist"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	trait = "trait_industrious"
+	trait = "trait_enduring"
+	trait = "trait_deviants"
+	authority = "auth_imperial"
+	civics = { "civic_cpu", "civic_functional_architecture" }
+}
+
+## Blanc
+"MegaTagmension Blanc" = {
+	name_list = "Neptunia"
+	ship_prefix = "HDD"
+	species_name = "CPU"
+	species_plural = "CPUs"
+	species_class = "Neptunia"
+	species_adjective = "Consoles"
+	portrait = "lowee"
+	name = "MegaTagmension Blanc"
+	adjective = "Goddesses"
+	government = "cpu_dual_mandate"
+	ftl = warp
+	weapon = "tech_lasers_1"
+	planet_name = "Lowee"
+	planet_class = "pc_arctic"
+	system_name = "Gamindustri"
+	initializer = "blnc_system_initializer"
+	graphical_culture = "avian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	flags = { hyperd_2 custom_start_screen }
+	
+	empire_flag = {
+		icon={
+			category = "neptunia"
+			file = "flag_neptunia_3.dds"
+		}
+		background={
+			category = "backgrounds"
+			file = "sinus.dds"
+		}
+		colors={
+			"blue"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = female
+		name = "White Heart"
+		portrait = "neptune4"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title_female="Console Patron Unit"
+		heir_title_female="White Sisters"
+	}
+	spawn_enabled = no
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_spiritualist"
+	trait = "trait_resilient"
+	trait = "trait_enduring"
+	trait = "trait_communal"
+	trait = "trait_slow_learners"
+	authority = "auth_imperial"
+	civics = { "civic_cpu", "civic_functional_architecture" }
+}
+
+## Vert
+"Ultradimension Vert" = {
+	name_list = "Neptunia"
+	ship_prefix = "HDD"
+	species_name = "CPU"
+	species_plural = "CPUs"
+	species_class = "Neptunia"
+	species_adjective = "Consoles"
+	portrait = "leanbox"
+	name = "Ultradimension Vert"
+	adjective = "Goddesses"
+	government = "cpu_solo_mandate"
+	ftl = warp
+	weapon = "tech_lasers_1"
+	planet_name = "Leanbox"
+	planet_class = "pc_tropical"
+	system_name = "Gamindustri"
+	initializer = "vert_system_initializer"
+	graphical_culture = "avian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	flags = { hyperd_4 custom_start_screen }
+	
+	empire_flag = {
+		icon={
+			category = "neptunia"
+			file = "flag_neptunia_4.dds"
+		}
+		background={
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"dark_green"
+			"teal"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = female
+		name = "Green Heart"
+		portrait = "neptune5"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title_female="Console Patron Unit"
+	}
+	spawn_enabled = no
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	trait = "trait_enduring"
+	trait = "trait_adaptive"
+	trait = "trait_repugnant"
+	authority = "auth_imperial"
+	civics = { "civic_cpu", "civic_functional_architecture" }
+}
+
+## Plutia
+"Megadimension Plutia" = {
+	name_list = "Neptunia"
+	ship_prefix = "HDD"	
+	species_name = "CPU"
+	species_plural = "CPUs"
+	species_class = "Neptunia"
+	species_adjective = "Consoles"
+	portrait = "planeptune"
+	name = "Megadimension Plutia"
+	adjective = "Goddesses"
+	government = "cpu_solo_mandate"
+	ftl = warp
+	weapon = "tech_lasers_1"
+	planet_name = "Planeptune"
+	planet_class = "pc_continental"
+	system_name = "Gamindustri"
+	initializer = "nep_system_initializer"
+	graphical_culture = "avian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	flags = { hyperd_5 custom_start_screen }
+	
+	empire_flag = {
+		icon={
+			category = "neptunia"
+			file = "flag_neptunia_5.dds"
+		}
+		background={
+			category = "backgrounds"
+			file = "circle.dds"
+		}
+		colors={
+			"blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = female
+		name = "Iris Heart"
+		portrait = "neptune3"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title_female="Console Patron Unit"
+	}
+	spawn_enabled = no
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	ethic = "ethic_spiritualist"
+	trait = "trait_natural_sociologists"
+	trait = "trait_charismatic"
+	trait = "trait_slow_breeders"
+	trait = "trait_strong"
+	authority = "auth_imperial"
+	civics = { "civic_cpu", "civic_functional_architecture" }
+}
+
+## Tari 
+"Ultradimension Rei" = {
+	name_list = "Neptunia"
+	ship_prefix = "HDD"	
+	species_name = "CPU"
+	species_plural = "CPUs"
+	species_class = "Neptunia"
+	species_adjective = "Consoles"
+	portrait = "tari"
+	name = "Ultradimension Rei"
+	adjective = "Goddesses"
+	government = "cpu_solo_mandate"
+	ftl = warp
+	weapon = "tech_lasers_1"
+	planet_name = "Tari"
+	planet_class = "pc_desert"
+	system_name = "Gamindustri"
+	initializer = "tari_system_initializer"
+	graphical_culture = "avian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	flags = { hyperd_6 custom_start_screen }
+	
+	empire_flag = {
+		icon={
+			category = "neptunia"
+			file = "flag_neptunia_6.dds"
+		}
+		background={
+			category = "backgrounds"
+			file = "stripes.dds"
+		}
+		colors={
+			"grey"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender = female
+		name = "Blue Heart"
+		portrait = "neptune6"
+		texture = 0
+		hair = 0
+		clothes = 0
+		ruler_title_female="Console Patron Unit"
+	}
+	spawn_enabled = no
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	trait = "trait_sedentary"
+	trait = "trait_repugnant"
+	trait = "trait_conformists"
+	trait = "trait_thrifty"
+	authority = "auth_imperial"
+	civics = { "civic_cpu", "civic_functional_architecture" }
+}
+

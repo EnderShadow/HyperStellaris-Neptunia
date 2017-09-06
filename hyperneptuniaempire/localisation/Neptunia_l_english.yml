@@ -1,0 +1,95 @@
+﻿l_english:
+ ####################################
+ # Name Lists
+ ####################################
+ name_list_Neptunia:0 "Hyperdimension Neptunia"
+ ####################################
+ # Flag List
+ ####################################
+ FLAG_CATEGORY_neptunia:0 "Neptunia Flag"
+ ####################################
+ # Species Classes
+ ####################################
+ Neptunia:0 "Neptunia"
+ Neptunia_desc:1 "Species Class has no effect on your Empire, but CPU-class Species may consider other CPUs to be less alien than other Species Classes."
+ Neptunia_plural:0 "Neptunians"
+ Neptunia_insult_01:0 "compiled data"
+ Neptunia_insult_plural_01:0 "bunch of data"
+ Neptunia_compliment_01:0 "well-defined user"
+ Neptunia_compliment_plural_01:0 "well-defined users"
+ Neptunia_spawn:0 "bit"
+ Neptunia_spawn_plural:0 "byte"
+ Neptunia_sound_01:0 "scratching"
+ Neptunia_sound_02:0 "compiling"
+ Neptunia_sound_03:0 "analyzing"
+ Neptunia_sound_04:0 "erasing"
+ Neptunia_sound_05:0 "installing"
+ Neptunia_organ:0 "disc drive"
+ Neptunia_mouth:0 "USB-connector"
+ ####################################
+ # Government Titles
+ ####################################
+ cpu_mandate:0 "CPU"
+ cpu_mandate_desc:1 "§LConsole Patron Unit with a Sister§!"
+ cpu_solo_mandate:0 "CPU"
+ cpu_solo_mandate_desc:1 "§LConsole Patron Unit§!"
+ cpu_dual_mandate:0 "CPU"
+ cpu_dual_mandate_desc:1 "§LConsole Patron Unit with two Sisters.§!"
+ RT_CPU:0 "Console Patron Unit"
+ HT_CPU:0 "Console Patron Sister"
+ ####################################
+ # System Initializers
+ ####################################
+ nep_system_initializer_NAME:0 "Planeptune System"
+ nep_system_initializer_DESC:0 "Start the game from the perspective of Planeptune."
+ noir_system_initializer_NAME:0 "Lastation System"
+ noir_system_initializer_DESC:0 "Start the game from the perspective of Lastation."
+ blnc_system_initializer_NAME:0 "Lowee System"
+ blnc_system_initializer_DESC:0 "Start the game from the perspective of Lowee."
+ vert_system_initializer_NAME:0 "Leanbox System"
+ vert_system_initializer_DESC:0 "Start the game from the perspective of Leanbox."
+ tari_system_initializer_NAME:0 "Tari System"
+ tari_system_initializer_DESC:0 "Start the game from the perspective of Tari."
+ ####################################
+ # Custom Planet Classes
+ ####################################
+ pc_asteroid_ha:0 "Asteroid"
+ pc_asteroid_ha_desc:0 "A larger asteroid or planetoid standing out in the dense cluster of smaller bodies."
+ pc_barren_ha:0 "Barren World"
+ pc_barren_ha_desc:0 "Barren and rocky world with a thin or non-existent atmosphere. The surface is covered in meteor impact craters and seemingly devoid of life."
+ pc_arctic_un:0 "Arctic World"
+ pc_arctic_un_desc:0 "Frigid, rocky world with a nitrogen-oxygen atmosphere. The poles are big, and significant water deposits can be found permanently frozen as glacial ice."
+ pc_tropical_un:0 "Tropical World"
+ pc_tropical_un_desc:0 "Humid, rocky world with a thick nitrogen-oxygen atmosphere. Seasons with significant precipitation are interchanged with drier periods. Most landmasses are covered in dense vegetation."
+ pc_ocean_un:0 "Ocean World"
+ pc_ocean_un_desc:0 "Rocky world with a nitrogen-oxygen atmosphere and a significant hydrosphere. Oceans cover more than §Y90%§! of the surface, with scattered islands making up the remaining percentage."
+ pc_arid_un:0 "Arid World"
+ pc_arid_un_desc:0 "Dry, rocky world with a nitrogen-oxygen atmosphere. The dust-covered terrain consists largely of mesas and canyons. Forests can be found in the more temperate polar regions, but vegetation is otherwise scarce."
+ pc_tundra_un:0 "Tundra World"
+ pc_tundra_un_desc:0 "Cold and rocky world with a nitrogen-oxygen atmosphere. Permafrost covers most of the surface except for the more temperate equatorial regions. A stable biosphere exists but vegetation is mostly limited to mosses and lichens."
+ pc_continental_un:0 "Continental World"
+ pc_continental_un_desc:0 "Rocky world with a nitrogen-oxygen atmosphere. Active and stable hydrosphere. Great landmasses are separated by oceans, with large climate variations depending on latitude and precipitation."
+ pc_desert_un:0 "Desert World"
+ pc_desert_un_desc:0 "Dry, rocky world with a nitrogen-oxygen atmosphere. Precipitation and major bodies of surface water are relatively rare. Significant temperature variations between day and night cycles. Vegetation is scarce, but even moderate precipitation can make the desert bloom."
+ ####################################
+ # Custom Terrain Tiles
+ ####################################
+ pc_asteroid_ha_tile:0 "Asteroid Terrain"
+ pc_asteroid_ha_tile_desc:0 "In a crater, this place looks fairly sheltered from being pelted by space debris."
+ pc_barren_ha_tile:0 "Barren Terrain"
+ pc_barren_ha_tile_desc:0 "Barren and dry terrain with no vegetation and sparse with meteor craters."
+ ####################################
+ # Civics
+ ####################################
+ civic_cpu:0 "CPU"
+ civic_cpu_desc:0 "This country is ruled by a CPU."
+ 
+ ####################################
+ # Starting Text
+ ####################################
+ START_SCREEN_NEP:0 "You sit upon the throne in your Basilicom, it still feels alien to you. The previous CPU of Planeptune stands before you to relay her final message.\n\n"You, my dear Purple Heart, are the one I have chosen for the terrible duty of war and peace. You shall be the heir to the throne which all shall remember from now on as the age where all of Gamindustri consolidated with Planeptune and begun a new age.\"\n\n\"My only regret is that I cannot be there with you to give you advice during the difficult times. We have been chosen for another purpose, to retire to Celestia, to rest. I only hope wisdom finds you well in the times to come.\"\n\nAs the ceremonies die down and you are left alone for the first time, you stare across the chambers of your new Basilicom.\nTrying times are ahead..."
+ START_SCREEN_BLANC:0 "You sit alone in a chamber of solitude in the Lowee Basilicom. Before you is a letter from your predecessor, written before she stepped down. You steel yourself and open it, before reading it.\n\n\"You are now the one in control of the faithful nation of Lowee after a terrible era of conflict with our inferiors in Gamindustri. We emerged victorious naturally, however I declined the position to continue ruling after it was decided we should spread our influence to other systems.\"\n\n\"I leave it to your capable hands, but I pray you keep in mind our legacy even as new impressions take upon us in the interstellar space.\"\n\nAs the message ends, you sit yourself straight and look across the room.\nThey have no idea what is coming their way..."
+ START_SCREEN_NOIRE:0 "As you sit in the cold empty office of the Empire you've taken control of, you press down the button on the holographic player to start the message from your predecessor.\n\n\"You're now the one in control of the prideful nation of Lastation after a long period of conflict with the other planets in Gamindustri. As we emerged victorious, I stepped down and you were elected to be the next CPU to take the greatness of Lastation to the rest of the galaxy.\"\n\n\"It will be up to you how you chose to handle this, but keep in mind the hope of our people as you do and maintain our traditional ways.\"\n\nAs the message ends, you lean back and look over the galactic map.\nYou have a long and difficult task ahead of you..."
+ START_SCREEN_VERT:0 "You rise from the bed in your room as the messager steps through the door. He hurridly activates the prepared recording, before leaving you alone.\n\n\"You are now the one in control of the mighty nation of Leanbox after an ardeous time of infighting and bickering with the stubborn planets in Gamindustri. We remained the last ones standing, however it was quite stressful forcing my early retirement, right on the precipice of taking the galaxy too.\"\n\n\"It will be your duty to see to that our people survive the foray into the unknown, so I hope you keep our safety foremost in mind.\"\n\nAs the message ends, you slump back under the covers of your bed.\nYou will need all your strength in the coming days..."
+ START_SCREEN_PLUT:0 "You turn around as the goddess sinks down before you, her body beaten and battered after the torture in your dungeon.\n\n\"All of this, was your doing, wasn't it? The conflict, the war, the strife. All the suffering begun by you, but why?\"\n\nYou sink yourself down to her eye-level and present her with a devious grin.\n\n\"Why, I did it for progress. In your stagnated ruling we'd be made obsolete. But thanks to me, we'll be moving into the galactic scale tomorrow. Aren't you excited? I am practically shivering!\"\n\nAs you leave the room with a hallowed laughter, the downtrodden goddess vanishes in a beam of light..."
+ START_SCREEN_TARI:0 "It was all rather unexpected, but your victory of the other goddesses of Gamindustri prove your worth. From the ashes of a shattered kingdom, to a planetary force to be reckoned with, you've finally attained the Hard Drive Divinity necessary to overpower the other nations and reclaim your rightful place as the ruling nation in Gamindustri.\n\nThe scheme had worked perfectly, but moving forward from this desolated planet will prove the true task. Tari was left in tatters after the original Console Wars and rebuilding its might is going to be tough.\n\n\nYou sit on your throne and admire your work. The Galaxy will shudder in anticipation."

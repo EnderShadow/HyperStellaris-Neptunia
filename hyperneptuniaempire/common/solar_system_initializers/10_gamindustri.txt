@@ -1,0 +1,1308 @@
+### Gamindustri System
+nep_system_initializer = {
+	name = "Gamindustri"
+	
+	class = "sc_g"
+	asteroids_distance = 200
+	
+	usage = custom_empire
+	max_instances = 1
+	
+	planet = {
+		name = "Gamindustri"
+		class= "pc_g_star"
+		orbit_distance = 0
+	}
+	
+	planet = {
+		name = "Celestia"
+		class = "pc_shielded"
+		orbit_distance = 50
+		orbit_angle = 15
+		size = 15
+		has_ring = no
+		has_ring = no
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Planeptune"
+		class = "pc_continental"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 16
+		home_planet = yes
+		starting_planet = yes
+		has_ring = yes
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}		
+		}
+		
+		moon = {
+			name = "Nepissa"
+			class = "pc_arctic"
+			size = 9
+			orbit_distance = 25
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lastation"
+		class = "pc_arid_un"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 16
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Lasporti"
+			class = "pc_desert_un"
+			size = 4
+			orbit_distance = 15
+			orbit_angle = 25
+			has_ring = yes
+		}
+		
+		moon = {
+			name = "Lasinvit"
+			class = "pc_ocean_un"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 69
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lowee"
+		class = "pc_arctic_un"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 14
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Gamboi"
+			class = "pc_barren"
+			size = 4
+			orbit_distance = 20
+			orbit_angle = 115
+			has_ring = yes
+		}
+		moon = {
+			name = "Lodee"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 5
+			orbit_angle = 25
+			has_ring = no
+		}
+		moon = {
+			name = "Loess"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 0
+			orbit_angle = -25
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Leanbox"
+		class = "pc_tropical_un"
+		orbit_distance = 120
+		orbit_angle = -195
+		size = 25
+		has_ring = no
+		change_orbit = 4
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tari"
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		orbit_distance = -50
+		orbit_angle = -210
+		size = 40
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		moon = {
+			name = "Tari 2600"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 10
+			orbit_angle = 45
+			has_ring = no
+		}
+		moon = {
+			name = "Jaguari"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 125
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 5200"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 1
+			orbit_angle = 250
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 7800"
+			class = "pc_asteroid"
+			size = 3
+			orbit_distance = 1
+			orbit_angle = 350
+			has_ring = no
+		}
+		moon = {
+			name = "Cosmos"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 210
+			has_ring = no
+		}
+		moon = {
+			name = "Lynx"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 5
+			orbit_angle = 178
+			has_ring = no
+		}
+	}
+}
+
+blnc_system_initializer = {
+	name = "Gamindustri"
+	
+	class = "sc_g"
+	asteroids_distance = 200
+	
+	usage = custom_empire
+	max_instances = 1
+	
+	planet = {
+		name = "Gamindustri"
+		class= "pc_g_star"
+		orbit_distance = 0
+	}
+	
+	planet = {
+		name = "Celestia"
+		class = "pc_shielded"
+		orbit_distance = 50
+		orbit_angle = 15
+		size = 15
+		has_ring = no
+		has_ring = no
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Planeptune"
+		class = "pc_continental_un"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 16
+		has_ring = yes
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Nepissa"
+			class = "pc_arctic_un"
+			size = 9
+			orbit_distance = 25
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+
+	planet = {
+		name = "Lastation"
+		class = "pc_arid_un"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 16
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Lasporti"
+			class = "pc_desert_un"
+			size = 4
+			orbit_distance = 15
+			orbit_angle = 25
+			has_ring = yes
+		}
+		
+		moon = {
+			name = "Lasinvit"
+			class = "pc_ocean_un"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 69
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lowee"
+		class = "pc_arctic"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 14
+		home_planet = yes
+		starting_planet = yes
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}		
+		}
+		
+		moon = {
+			name = "Gamboi"
+			class = "pc_barren_ha"
+			size = 4
+			orbit_distance = 20
+			orbit_angle = 115
+			has_ring = yes
+		}
+		moon = {
+			name = "Lodee"
+			class = "pc_tundra"
+			size = 6
+			orbit_distance = 5
+			orbit_angle = 25
+			has_ring = no
+		}
+		moon = {
+			name = "Loess"
+			class = "pc_tundra"
+			size = 6
+			orbit_distance = 0
+			orbit_angle = -25
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Leanbox"
+		class = "pc_tropical_un"
+		orbit_distance = 120
+		orbit_angle = -195
+		size = 25
+		has_ring = no
+		change_orbit = 4
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tari"
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		orbit_distance = -50
+		orbit_angle = -210
+		size = 40
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		moon = {
+			name = "Tari 2600"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 10
+			orbit_angle = 45
+			has_ring = no
+		}
+		moon = {
+			name = "Jaguari"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 125
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 5200"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 1
+			orbit_angle = 250
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 7800"
+			class = "pc_asteroid"
+			size = 3
+			orbit_distance = 1
+			orbit_angle = 350
+			has_ring = no
+		}
+		moon = {
+			name = "Cosmos"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 210
+			has_ring = no
+		}
+		moon = {
+			name = "Lynx"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 5
+			orbit_angle = 178
+			has_ring = no
+		}
+	}
+}
+
+noir_system_initializer = {
+	name = "Gamindustri"
+	
+	class = "sc_g"
+	asteroids_distance = 200
+	
+	usage = custom_empire
+	max_instances = 1
+	
+	planet = {
+		name = "Gamindustri"
+		class= "pc_g_star"
+		orbit_distance = 0
+	}
+	
+	planet = {
+		name = "Celestia"
+		class = "pc_shielded"
+		orbit_distance = 50
+		orbit_angle = 15
+		size = 15
+		has_ring = no
+		has_ring = no
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Planeptune"
+		class = "pc_continental_un"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 16
+		has_ring = yes
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Nepissa"
+			class = "pc_arctic_un"
+			size = 9
+			orbit_distance = 25
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lastation"
+		class = "pc_arid"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 16
+		home_planet = yes
+		starting_planet = yes
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}		
+		}
+		
+		moon = {
+			name = "Lasporti"
+			class = "pc_desert"
+			size = 4
+			orbit_distance = 15
+			orbit_angle = 25
+			has_ring = yes
+		}
+		
+		moon = {
+			name = "Lasinvit"
+			class = "pc_ocean"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 69
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lowee"
+		class = "pc_arctic_un"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 14
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Gamboi"
+			class = "pc_barren"
+			size = 4
+			orbit_distance = 20
+			orbit_angle = 115
+			has_ring = yes
+		}
+		moon = {
+			name = "Lodee"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 5
+			orbit_angle = 25
+			has_ring = no
+		}
+		moon = {
+			name = "Loess"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 0
+			orbit_angle = -25
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Leanbox"
+		class = "pc_tropical_un"
+		orbit_distance = 120
+		orbit_angle = -195
+		size = 25
+		has_ring = no
+		change_orbit = 4
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tari"
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		orbit_distance = -50
+		orbit_angle = -210
+		size = 40
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		moon = {
+			name = "Tari 2600"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 10
+			orbit_angle = 45
+			has_ring = no
+		}
+		moon = {
+			name = "Jaguari"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 125
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 5200"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 1
+			orbit_angle = 250
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 7800"
+			class = "pc_asteroid"
+			size = 3
+			orbit_distance = 1
+			orbit_angle = 350
+			has_ring = no
+		}
+		moon = {
+			name = "Cosmos"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 210
+			has_ring = no
+		}
+		moon = {
+			name = "Lynx"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 5
+			orbit_angle = 178
+			has_ring = no
+		}
+	}
+}
+
+vert_system_initializer = {
+	name = "Gamindustri"
+	
+	class = "sc_g"
+	asteroids_distance = 200
+	
+	usage = custom_empire
+	max_instances = 1
+	
+	planet = {
+		name = "Gamindustri"
+		class= "pc_g_star"
+		orbit_distance = 0
+	}
+	
+	planet = {
+		name = "Celestia"
+		class = "pc_shielded"
+		orbit_distance = 50
+		orbit_angle = 15
+		size = 15
+		has_ring = no
+		has_ring = no
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Planeptune"
+		class = "pc_continental_un"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 16
+		has_ring = yes
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Nepissa"
+			class = "pc_arctic_un"
+			size = 9
+			orbit_distance = 25
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lastation"
+		class = "pc_arid_un"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 16
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Lasporti"
+			class = "pc_desert_un"
+			size = 4
+			orbit_distance = 15
+			orbit_angle = 25
+			has_ring = yes
+		}
+		
+		moon = {
+			name = "Lasinvit"
+			class = "pc_ocean_un"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 69
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lowee"
+		class = "pc_arctic_un"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 14
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Gamboi"
+			class = "pc_barren"
+			size = 4
+			orbit_distance = 20
+			orbit_angle = 115
+			has_ring = yes
+		}
+		moon = {
+			name = "Lodee"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 5
+			orbit_angle = 25
+			has_ring = no
+		}
+		moon = {
+			name = "Loess"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 0
+			orbit_angle = -25
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Leanbox"
+		class = "pc_tropical"
+		orbit_distance = 120
+		orbit_angle = -195
+		size = 25
+		home_planet = yes
+		starting_planet = yes
+		has_ring = no
+		change_orbit = 4
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}		
+		}
+	}
+	
+	planet = {
+		name = "Tari"
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		orbit_distance = -50
+		orbit_angle = -210
+		size = 40
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		moon = {
+			name = "Tari 2600"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 10
+			orbit_angle = 45
+			has_ring = no
+		}
+		moon = {
+			name = "Jaguari"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 125
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 5200"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 1
+			orbit_angle = 250
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 7800"
+			class = "pc_asteroid"
+			size = 3
+			orbit_distance = 1
+			orbit_angle = 350
+			has_ring = no
+		}
+		moon = {
+			name = "Cosmos"
+			class = "pc_asteroid"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 210
+			has_ring = no
+		}
+		moon = {
+			name = "Lynx"
+			class = "pc_asteroid"
+			size = 2
+			orbit_distance = 5
+			orbit_angle = 178
+			has_ring = no
+		}
+	}
+}
+
+tari_system_initializer = {
+	name = "Gamindustri"
+	
+	class = "sc_g"
+	asteroids_distance = 200
+	
+	usage = custom_empire
+	max_instances = 1
+	
+	planet = {
+		name = "Gamindustri"
+		class= "pc_g_star"
+		orbit_distance = 0
+	}
+	
+	planet = {
+		name = "Celestia"
+		class = "pc_shielded"
+		orbit_distance = 50
+		orbit_angle = 15
+		size = 15
+		has_ring = no
+		has_ring = no
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Planeptune"
+		class = "pc_continental_un"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 16
+		has_ring = yes
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Nepissa"
+			class = "pc_arctic_un"
+			size = 9
+			orbit_distance = 25
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lastation"
+		class = "pc_arid_un"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 16
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Lasporti"
+			class = "pc_desert_un"
+			size = 4
+			orbit_distance = 15
+			orbit_angle = 25
+			has_ring = yes
+		}
+		
+		moon = {
+			name = "Lasinvit"
+			class = "pc_ocean_un"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = 69
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Lowee"
+		class = "pc_arctic_un"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 14
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "Gamboi"
+			class = "pc_barren"
+			size = 4
+			orbit_distance = 20
+			orbit_angle = 115
+			has_ring = yes
+		}
+		moon = {
+			name = "Lodee"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 5
+			orbit_angle = 25
+			has_ring = no
+		}
+		moon = {
+			name = "Loess"
+			class = "pc_tundra_un"
+			size = 6
+			orbit_distance = 0
+			orbit_angle = -25
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "Leanbox"
+		class = "pc_tropical_un"
+		orbit_distance = 120
+		orbit_angle = -195
+		size = 25
+		has_ring = no
+		change_orbit = 4
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "Tari"
+		class = "pc_barren_ha"
+		entity = "barren_planet_01_destroyed_entity"
+		orbit_distance = -50
+		orbit_angle = -210
+		size = 16
+		home_planet = yes
+		starting_planet = yes
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		
+		moon = {
+			name = "Tari 2600"
+			class = "pc_asteroid_ha"
+			size = 1
+			orbit_distance = 10
+			orbit_angle = 45
+			has_ring = no
+		}
+		moon = {
+			name = "Jaguari"
+			class = "pc_asteroid_ha"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 125
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 5200"
+			class = "pc_asteroid_ha"
+			size = 2
+			orbit_distance = 1
+			orbit_angle = 250
+			has_ring = no
+		}
+		moon = {
+			name = "Tari 7800"
+			class = "pc_asteroid_ha"
+			size = 3
+			orbit_distance = 1
+			orbit_angle = 350
+			has_ring = no
+		}
+		moon = {
+			name = "Cosmos"
+			class = "pc_asteroid_ha"
+			size = 1
+			orbit_distance = 1
+			orbit_angle = 210
+			has_ring = no
+		}
+		moon = {
+			name = "Lynx"
+			class = "pc_asteroid_ha"
+			size = 2
+			orbit_distance = 5
+			orbit_angle = 178
+			has_ring = no
+		}
+	}
+}

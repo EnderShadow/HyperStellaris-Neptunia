@@ -1,0 +1,48 @@
+#civic_example = {
+#	playable = {}								# AND trigger, no scope; use this to prevent the civic from being selectable by the player (UI)
+#	potential = {}								# requirements list, see ../readme_requirements.txt
+#	possible = {}								# requirements list, see ../readme_requirements.txt
+#	pickable_at_start = yes / no				# default: yes
+#	modification = yes / no						# default: yes, set to no to prevent adding or removing this after creation of the empire
+#
+#	random_weight = { base = 1 }				# scriptable weight for randomizing a civic; required, else the civic will not get assigned randomly
+#
+#	modifier = {}								# modifier added to the country if the civic is selected and valid
+#	can_build_ruler_military_station = yes / no	# default: no
+#	can_build_ruler_ship = yes / no				# default: no
+#}
+
+civic_cpu = {
+	icon = "gfx/interface/icons/governments/cpu_mandate.dds"
+	modification = no
+	
+	# prevents the civic from appearing in the civic menu
+	potential = {
+		civics = {
+			value = civic_cpu
+		}
+	}
+	
+	random_weight = {
+		base = 1
+		modifier = {
+			factor = 0
+		}
+	}
+	
+	possible = {
+		civics = {
+			value = civic_cpu
+		}
+	}
+	
+	modifier = {
+		army_upkeep_mult = -0.5
+		ship_upkeep_mult = -0.5
+		spaceport_ship_build_cost_mult = -0.3
+		country_ship_upgrade_cost_mult = -0.5
+		planet_building_cost_mult = -0.2
+		all_technology_research_speed = 0.3
+		country_resource_unity_mult = 0.3
+	}
+}

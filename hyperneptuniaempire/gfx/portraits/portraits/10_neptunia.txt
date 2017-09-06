@@ -1,0 +1,316 @@
+portraits = {
+	neptune1 = { texturefile = "gfx/models/portraits/neptunias/purpleheart.dds" }
+	neptune2 = { texturefile = "gfx/models/portraits/neptunias/blackheart.dds" }
+	neptune3 = { texturefile = "gfx/models/portraits/neptunias/liliacheart.dds" }
+	neptune4 = { texturefile = "gfx/models/portraits/neptunias/whiteheart.dds" }
+	neptune5 = { texturefile = "gfx/models/portraits/neptunias/greenheart.dds" }
+	neptune6 = { texturefile = "gfx/models/portraits/neptunias/blueheart.dds" }
+	
+	neptune10 = { texturefile = "gfx/models/portraits/neptunias/histy.dds" }
+	neptune11 = { texturefile = "gfx/models/portraits/neptunias/plutia.dds" }
+	neptune12 = { texturefile = "gfx/models/portraits/neptunias/nepgear.dds" }
+	neptune13 = { texturefile = "gfx/models/portraits/neptunias/neptune.dds" }
+	
+	neptune20 = { texturefile = "gfx/models/portraits/neptunias/blanc.dds" }
+	neptune21 = { texturefile = "gfx/models/portraits/neptunias/rom.dds" }
+	neptune22 = { texturefile = "gfx/models/portraits/neptunias/ram.dds" }
+	neptune23 = { texturefile = "gfx/models/portraits/neptunias/red.dds" }
+	
+	neptune30 = { texturefile = "gfx/models/portraits/neptunias/noire.dds" }
+	neptune31 = { texturefile = "gfx/models/portraits/neptunias/keiji.dds" }
+	neptune32 = { texturefile = "gfx/models/portraits/neptunias/uni.dds" }
+	neptune33 = { texturefile = "gfx/models/portraits/neptunias/compa.dds" }
+	
+	neptune40 = { texturefile = "gfx/models/portraits/neptunias/vert.dds" }
+	neptune41 = { texturefile = "gfx/models/portraits/neptunias/IF.dds" }
+	neptune42 = { texturefile = "gfx/models/portraits/neptunias/chika.dds" }
+	neptune43 = { texturefile = "gfx/models/portraits/neptunias/peashy.dds" }
+	
+	neptune50 = { texturefile = "gfx/models/portraits/neptunias/rei.dds" }
+	neptune51 = { texturefile = "gfx/models/portraits/neptunias/keiji.dds" }
+	neptune52 = { texturefile = "gfx/models/portraits/neptunias/histy.dds" }
+	neptune53 = { texturefile = "gfx/models/portraits/neptunias/chika.dds" }
+	
+	neptune60 = { texturefile = "gfx/models/portraits/neptunias/nepg1.dds" }
+	neptune61 = { texturefile = "gfx/models/portraits/neptunias/nepg2.dds" }
+	neptune62 = { texturefile = "gfx/models/portraits/neptunias/nepgvii.dds" }
+	neptune63 = { texturefile = "gfx/models/portraits/neptunias/uni1.dds" }
+	neptune64 = { texturefile = "gfx/models/portraits/neptunias/uni2.dds" }
+	neptune65 = { texturefile = "gfx/models/portraits/neptunias/rom_ram.dds" }
+}
+
+portrait_groups = {
+	planeptune = {
+		default = neptune1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					neptune1
+					neptune3
+					neptune10
+					neptune11
+					neptune12
+					neptune13
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					neptune1
+					neptune3
+					neptune10
+					neptune11
+					neptune12
+					neptune13
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					neptune10
+					neptune11
+					neptune12
+					neptune13
+					neptune43
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					neptune10
+					neptune60
+					neptune61
+					neptune62
+				}
+			}
+		}
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					neptune1
+					neptune3
+				}
+			}
+		}
+	}
+	lowee = {
+		default = neptune4
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					neptune4
+					neptune20
+					neptune21
+					neptune22
+					neptune23
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					neptune4
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					neptune20
+					neptune21
+					neptune22
+					neptune23
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					neptune65
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					neptune4
+				}
+			}
+		}
+	}
+	
+	leanbox = {
+		default = neptune5
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					neptune5
+					neptune40
+					neptune41
+					neptune42
+					neptune43
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					neptune5
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					neptune41
+					neptune43
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					neptune40
+					neptune42
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					neptune5
+				}
+			}
+		}
+	}
+	
+	lastation = {
+		default = neptune2
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					neptune2
+					neptune30
+					neptune31
+					neptune32
+					neptune33
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					neptune2
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					neptune30
+					neptune31
+					neptune32
+					neptune33
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					neptune31
+					neptune63
+					neptune64
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					neptune2
+				}
+			}
+		}
+	}
+	
+	tari = {
+		default = neptune6
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					neptune6
+					neptune50
+					neptune51
+					neptune52
+					neptune53
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					neptune6
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					neptune50
+					neptune51
+					neptune52
+					neptune53
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					neptune6
+					neptune50
+					neptune51
+					neptune52
+					neptune53
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					neptune6
+				}
+			}
+		}
+	}
+}

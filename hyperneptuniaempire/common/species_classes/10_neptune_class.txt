@@ -1,0 +1,14 @@
+Neptunia = {
+	playable = { always = yes }
+	randomized = yes
+	
+	portraits = { 
+	"planeptune"
+	"lowee"
+	"leanbox"
+	"lastation"
+	"tari"
+	}
+	graphical_culture = avian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

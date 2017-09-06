@@ -1,0 +1,326 @@
+﻿### Hyperdimension Neptunia
+Neptunia = {
+	ship_names = {
+
+		generic = {
+			Bashful Belgarion Blaze Whale Blue Boxer-X Call Cardbird Child Clione Clyde Cold "Contracted Angel" Cuberal Cyber Death Dogoo Dreadnaught Eggplanter Exhausted Flame Forest Frozen Giant Hachibei Heal Healing "High Heal" Horsebird Rider Huge Hyperdimension Hypernaught Ice In-the-way Invader Jellyfish "King Crab" Lost Defense Lowee Magic Magical Guard Maximus Magma Malvader Metal Mega Nanovader Pinky Numb Obese Penguin Poxvader Promisekeeper Red Saint Skeleton Skull Snow Special Sunflowery Super Otaku Tortoise Tulip Turtle Ultradimension Unplanned Volcano WD Weathervane Wind Wood Victory "Victory II"
+		}
+		
+		corvette = {
+			"Wooden Sword" "Bamboo Sword" "Hunting Sword" "Unbranded Katana" "Kiryu Sword" "Sonic Blade" "Short Sword" Rapier "Silver Sword" "Bronze Sword" Fragarach "Mail Breaker" "Night Striker" "Black Crow" "1st Bounty Blade" "Rune Caliber" "Famitsu Sword" Hammer "Cube Hammer" Partisan Halberd "Superior Spear" "Sword Spear" "Round Striker"
+		}
+		
+		constructor = {
+			Artist Creator Developer Forger Modder "Healing Grass" "Healing Pod" "Healing Drink" "Healing Bottle" "Nep Bull" "Nep Bull C" "Nep Bull SP" "Nep Bull EX" "Nep Bull EX-II" "Special Drink C" "Special Drink H"
+		}
+		
+		colonizer = {
+			PR "Public Relations Agency" Godspeed Prophecy "Manifest Destiny" Virtue Potential Expansion Ceres Exodus "Energy Fragment" "Exuberant Fragment" "Exuberant Lump" "Revival Pencil" "Revival Pen"
+		}
+		
+		science = {
+			"SP Charger" "P.SP Charger" "P.SP Charger 2" "Magic Disc" "Wizard Disc" "Golden Feather" "White Owl Feather" "White Drop" "Crimson Drop" "Elegant Crown" "Rune Crown" "Bell Ribbon" "Striped Ribbon" "Shooting Star" "Lucky Star" "Halo Lamp" "Black Light" "Demon Headband" "Rose Devil" "Tiny Ears" "Magical Ribbon" "Mini Top Hat" "Nep Doll" "Earpiece" Glasses Sunglasses "Flower Eye Patch" Mask "Crescent Earring" Watcher Analyzer Phantom "Tres Bien" "Iron Guard"
+		}
+		
+		destroyer = {
+			Tachi "Bastard Sword" Claymore "Beam Katana Beta" "Next-Gen Katana" "Variable Sword" "Demon Blood Rain" Airgeatlamh "Shining Blade" "Lightning Sword" "Noire Blade" "Dragon Slayer" Elysdeon "Ignis Blade" Caliburn G-Driver "Nowatang Blade" "Heavy Hammer" "Drive Hammer" "Boulder Crusher" "Night Lancer" "Lord Lance" "Cross Cube"
+		}
+		
+		cruiser = {
+			"Beam Katana" Executioner Esperance "Claiomh Solais" "Demon Blood Curse" Laevateinn "Mecha-Nep Blade" "Psyllium Blade" "Mechanical Sword" "Metal Bringer" "Advanced Blade" Alondite "Noire Striker" "Phantom Blade" "Nowatang Blade β" "Feather Hammer" "Planet Crusher" Testament "Strike Lancer" Areadbhar Gungnir 
+		}
+		
+		battleship = {
+			"Beam Katana Plus" "Beam Katana -V-" "Beam Katana EXA" Excalibur "Psyllium Blade β" "A-MN Noire" Durandal "Destruction Hammer" "Excel-Lance" "Gae Bolg" Dreadnaught "Holy Duel Lance"
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider  "Home Turf" Wide
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+			Casette Disk_Card DL-ROM Large_USB_Memory Green_Light_Disk Floppy_Disk Casette_2 Disk_Card_B Disk_Card_D DC-ROM Gold_Disc Mega_ROM Media_Card NO_Disk USB_Thumb_Drive Shock_108M_ROM Optical_Disk VDD-ROM SE_Card Flash_Memory 108G_Power_ROM 5DD-ROM Memory_Stick External_HHD Blue_Light_Disk Red_Light_Disk Terabyte_Disk External_SSD Ultra_USB_Memory S_Media_Card Purple_Ray_Disk Infinite_Disk Ultimate_Disk
+		}
+		
+		military_station_small = {}
+		
+		#"Star Post 1" "Star Post 2" "Star Post 3" "Star Post 4" "Star Post 5" "Star Post 6" "Star Post 7" "Star Post 8" "Star Post 9" "Star Post 10" "Star Post 11" "Star Post 12"
+		#"Star Post 13" "Star Post 14" "Star Post 15" "Star Post 16" "Star Post 17" "Star Post 18" "Star Post 19" "Star Post 20" "Star Post 21" "Star Post 22" "Star Post 23"
+		#"Star Post 24" "Star Post 25" "Star Post 26" "Star Post 27" "Star Post 28" "Star Post 29" "Star Post 30" "Star Post 31" "Star Post 32" "Star Post 33" "Star Post 34"
+		#"Star Post 35" "Star Post 36" "Star Post 37" "Star Post 38" "Star Post 39" "Star Post 40"
+		
+		military_station_medium = {}
+		
+		#"Fort Victory" "Fort Success" "Fort Triumph" "Fort Supremacy" "Fort Superior" "Fort Adventure"
+		#"Fort Ascendancy" "Fort Paramount" "Fort Preponderous" "Fort Exemplary" "Fort Eximious"
+		#"Fort Acclaim" "Fort Honor" "Fort Renown" "Fort Glory" "Fort Superb" "Fort Magnificence" 
+		#"Fort Majestic" "Fort Splendor" "Fort Paradigm" "Fort Flawless" "Fort Consummate" "Fort Merit"
+		#"Fort Perfection" "Fort Virtue" "Fort Advantage" "Fort Rectitude" "Fort Incorruptible" 
+		#"Fort Integrity" "Fort Justice" "Fort Probity" "Fort Prudence" "Fort Purity" "Fort Resolute"
+		#"Fort Dignity" "Fort Distinction" "Fort Excellence" "Fort Faithful" "Fort Discipline"
+		#"Fort Recompense" "Fort Retribution" "Fort Requiem" "Fort Courage" "Fort Valor" "Fort Gallant"
+		#"Fort Daring" "Fort Constancy" "Fort Perseverence" "Fort Tenacity" "Fort Sedulity" "Fort Diligence"
+		#"Fort Pertinacity" "Fort Steadfast"
+		
+		military_station_large = {
+			Victory Success Triumph Supremacy Superior Adventure Ascendancy Paramount Preponderous Exemplary Eximious
+			Acclaim Honor Renown Glory Superb Magnificence Majestic Splendor Paradigm Flawless Consummate Merit
+			Perfection Virtue Advantage Rectitude Incorruptible Integrity Justice Probity Prudence Purity Resolute
+			Dignity Distinction Excellence Faithful Discipline Recompense Retribution Requiem Courage Valor Gallant
+			Daring Constancy Perseverence Tenacity Sedulity Diligence Pertinacity Steadfast
+		}
+		
+		
+		# "Battlestation Impregnable" "Battlestation Insurmountable" "Battlestation Impenetrable" "Battlestation Unbreakable" "Battlestation Implacable" 
+		# "Battlestation Impervious" "Battlestation Unswerving" "Battlestation Inexorable" "Battlestation Inflexible" "Battlestation Unyielding"
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Strike Force Manticore" "Strike Force Basilisk" "Strike Force Chimera" "Strike Force Minotaur" "Strike Force Gorgon" "Strike Force Dragon"
+			"Strike Force Wyvern" "Strike Force Enfield" "Strike Force Centaur" "Strike Force Pegasus" "Strike Force Kraken" "Strike Force Charybdis"
+			"Strike Force Cerberus" "Strike Force Cyclops" "Strike Force Griffin" "Strike Force Phoenix" "Strike Force Scylla" "Strike Force Titan"
+			"Strike Force Hydra" "Strike Force Werewolf" "Strike Force Behemoth" "Strike Force Medusa" "Strike Force Sphinx" "Strike Force Hippogriff"
+			"Strike Force Garuda"
+		}
+		sequential_name = "%O% Strike Force"
+	}
+	
+	army_names = {
+		
+		defense_army = { 
+			sequential_name = "%O% Dogoo"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Pixelvader"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Volunteers"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Finest Army Money Can Buy"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% CPU"
+		}
+		
+		android_army = {
+			sequential_name = "%O% CPU Organics"
+		}
+		
+		psionic_army = { 
+			random_names = { 
+				"Shadow Nep" "Ghost Nep" "Wraith Nep" "Specter Nep" "Phantom Nep" "Deathmaker Nep" "Skull Nep" "Banshee Nep"
+				"Warlock Nep" "Reaper Nep"
+			}
+			sequential_name = "%O% Psy Nep-Nep"
+		}
+		
+		xenomorph_army = {
+			random_names = { 
+				"Experimental Unit 'IF'" "Experimental Unit 'Compa'" "Experimental Unit 'Nisa'" "Experimental Unit 'Dengekiko'" "Experimental Unit 'Tamsoft'" "Experimental Unit 'Falcom'"
+				"Experimental Unit 'Famitsu'" "Experimental Unit 'MAGES.'" "Experimental Unit 'Gust'" "Experimental Unit '5PB'"
+			}
+			sequential_name = "%O% Panty Raiders"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Hungry Raiders"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Hellfire Hollow" Labyrinth Ruins Graveyard Depths Mountain "Mountain Peak" "No. 1" "No. 2"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				Bandicrash Kuzarat "Rud Arms" Gigo "National Factory" Anonydeath "Soni Oasis" "PS System" "Vida System"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				MS Marubaco Halo Gheytz Gunbreak Duty Kinest Adjiten Graphic Gapain Underverse Trinity 
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				West Thelad Avenir Soulsac Toh-Kiden Gravidaze Naasne Rebeat Endless Midcompany "Arfoire's Factory" Infinite Sublie Septent
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				"Virtua Forest" "Monster Cave" "Fantasy Zone" Neo-Geofront Zeca "Mechtro Factory" Ortan Yukawa "Haneda Forest" "Nights' Dimension" Noma Darkness "Severed Dimension" LAN Castle Junk Box Powerlevel Panan "Lost Ruins"
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Celes Titan Celestia "Home of the Goddesses" "Bee Art"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Otori "Jet Set" "Haneda Sea" Leggo "Digital Future" Powerlevel
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Metroid Mines Ario Luji Reload Halo Zega Kobaba Nekutoki "EM ES Magma"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Snowfield Hyrarule Stella M-Frontier Donkong Millennium Uwii Dees "Global Expo" "World Labyrinth" Iris "Atari Marsh" Icicle
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 40
+			first_names_male = {
+				Akira Alex Bahn Beat Big Billy Blaze Brad Chip Sonic Cyril El Fang Gex Goh Hotsuma Iwao Ixis Jacky Joe Knuckles Kukku Lau "Lei-Fei" Lion Lockey Mighty Nocturnus Scourge Shade Sei Shun
+			}
+			first_names_female = {
+				Amy Aoi Charmy Chocola Cream Collie Dural Eileen Gum Hatsumi Histoire Honey IF Nepgear Elise Sarah Sega Tikal Uzume Vanilla Wisp
+			}
+			second_names = {
+				Yuki Kidd Rose Umenkouji Hatcher Cat Burns Chaos Bee Cheese Robotnik Chang Eggman Fukurokov Omega Blaze Sniper Genesis "Game Gear" Hinogami Sega Hazuki Naugus Bryant Mushashi Walker Chan Rafale Eagle "Master System" "Mega-CD2" "Mega Drive 2" "Robo Pitcher" SG-1000 "SG-1000 II" Sanman Bryant Saturn Di "Super 32X" "Tera Drive" Tennouboshi "Visual Memory"
+			}
+			regnal_first_names_male = {
+				Purple
+			}
+			regnal_first_names_female = {
+				Purple
+			}
+			regnal_second_names = {
+				Heart
+			}
+		}
+		
+		names2 = {
+			weight = 40
+			first_names_male = {
+				Crash Solid Nathan Kratos Ratchet Jak Daxter Sly Cole Cloud Ico Sora PaRappa Pyramid Dante Chris Joel Daniel
+			}
+			first_names_female = {
+				Clank Spyro Lara Lightning Yorda Ellie Nariko 
+			}
+			second_names = {
+				Bandicoot Snake Drake Croft Cooper MacGrath Strife "the Rapper" Head Redfield Fortesque Hale
+			}
+			regnal_first_names_male = {
+				Black
+			}
+			regnal_first_names_female = {
+				Black
+			}
+			regnal_second_names = {
+				Heart
+			}
+		}
+		
+		names3 = {
+			weight = 40
+			first_names_male = {
+				Kagetora Syrup Oceana Petey Tamagon Pigma Agahnim Hayami Fluff Ashnard Count Kaepora Pious 9-Volt Geno Kyle Popo Kalas R.O.B. Slippy Samurai Tingle Bowser Lucas Totakeke Link King Black Andy Ike James Master Sheik Majora Raymond Tom Isaac Diddy Professor Wolf Ganon Ganondorf Ness Vaati Mac Marth Doctor Wario Ridley Mario Luigi Captain Douglas Yoshi Ash Pit Kid Kirby Koopa Fox Falco Shulk Bill Donkey Adam Lakitu Ryu Ken Blanka
+			}
+			first_names_female = {
+				Pauline Jody Dixie Goombella Nana Zelda Samus Mother Saria Sheik Rosalina Amamiya Princess Peach Tetra Yoshi Adeleine Navi Ruto
+			}
+			second_names = {
+				Yamanouchi Louvier Piranha Rool Giygas Ryota Bleck Gaebora Augustus Hyde Toad Tortimer Rundas Starfy Fawful Goroh Resetti Slider Aran Dedede Knight Brain Shadow Hand Saki Bryce Nook Kong Layton Peach "O'Donnel" Ganon Ganondorf Andross Zelda Dragmire Falcon Ketchum Icarus Bowser McCloud Grey Malkovich Bison
+			}
+			regnal_first_names_male = {
+				White
+			}
+			regnal_first_names_female = {
+				White
+			}
+			regnal_second_names = {
+				Heart
+			}
+		}
+		
+		names4 = {
+			weight = 40
+			first_names_male = {
+				Master Ezio Sam Captain John Atair Roalnd "Handsome Jack" Mordecai Brick Andrew Jorge Ryu Dirk Marcus Leon Big Alucard Kane Manny Garrett Harman Arthas Agent Duke Illidan Brucie Minsc Khalid Sephiroth Gordon
+			}
+			first_names_female = {
+				Emile Alice Jaheira Shodan
+			}
+			second_names = {
+				Chief Auditore Fisher Price MacTavish "Ibn-La'Ahad" Ryan Spartan Emile Carter Hayabusa Fenix Kennedy Daddy Cavalera Smith Menethil Nukem Stormrage Freeman
+			}
+			regnal_first_names_male = {
+				Green
+			}
+			regnal_first_names_female = {
+				Green
+			}
+			regnal_second_names = {
+				Heart
+			}
+		}
+		
+		names5 = {
+			weight = 1
+			first_names_male = {
+				Philippe Pierre Jean-Marie Marcel Francois Hubert Paul Antoine Michel Henri Marc Jean Maurice Rene Claude Yves Jacques
+				Simon Olivier Joseph Robert Georges Andre Raymond Gaston Charles Thierry Guy Patrice Mathieu Jean-Francois Lucien Jean-Paul
+				Daniel Thibault Luc Dominic Sebastien Hugo
+			}
+			first_names_female = {
+				Chloe Ines Manon Camille Clara Juliette Clemence Jeanne Charlotte Marie Nina Julia Elise Justine Yasmine Elina Andrea
+				Eleonore Clarisse Fanny Selma Leila Veronique Sophie Helena Daphne Suzanne Melanie Bernadette Maud Angeline Celine Jessica
+				Pauline Viviane Jeanette
+			}
+			second_names = {
+				Martin Bernard Dubois Durand Leroy Moreau Lambert Dupont Leclerc Laurent Renard Tremblay Gagnon Roy Bouchard Gauthier
+				Morin Lavoie Fortin Gagne Duval Hebert "Le Gall" "Le Roux" Deville Gerard Duchaine Jauvin Gilbert Bergeron Paquette
+				Pelletier Remy Giroud Bosquet "de Castelnau" "de Montaignac" Lebouef Pellissier Deveraux
+			}
+			regnal_first_names_male = {
+				Blue
+			}
+			regnal_first_names_female = {
+				Blue
+			}
+			regnal_second_names = {
+				Heart
+			}
+		}
+	}
+}
