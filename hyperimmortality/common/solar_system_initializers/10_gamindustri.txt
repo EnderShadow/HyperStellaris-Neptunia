@@ -1813,7 +1813,7 @@ gamindustri_system_initializer = {
 				class = Neptunia
 				portrait = "planeptune"
 				traits = {
-					trait = "trait_enduring"
+					trait = "trait_immortal"
 					trait = "trait_nonadaptive"
 					trait = "trait_natural_physicists"
 					trait = "trait_nomadic"
@@ -2030,7 +2030,7 @@ gamindustri_system_initializer = {
 				portrait = "lastation"
 				traits = {
 					trait = "trait_industrious"
-					trait = "trait_enduring"
+					trait = "trait_immortal"
 					trait = "trait_deviants"
 				}
 				homeworld = this
@@ -2254,7 +2254,7 @@ gamindustri_system_initializer = {
 				portrait = "lowee"
 				traits = {
 					trait = "trait_resilient"
-					trait = "trait_enduring"
+					trait = "trait_immortal"
 					trait = "trait_communal"
 					trait = "trait_slow_learners"
 				}
@@ -2486,7 +2486,7 @@ gamindustri_system_initializer = {
 				class = Neptunia
 				portrait = "leanbox"
 				traits = {
-					trait = "trait_enduring"
+					trait = "trait_immortal"
 					trait = "trait_adaptive"
 					trait = "trait_repugnant"
 				}

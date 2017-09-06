@@ -1764,15 +1764,7 @@ gamindustri_system_initializer = {
 	flags = { gamindustri_system }
 	
 	usage = misc_system_init
-	usage_odds = {
-		base = 200
-		modifier = {
-			any_system = {
-				has_star_flag = gamindustri_system
-			}
-			factor = 0
-		}
-	}
+	usage_odds = 0
 	max_instances = 1
 	
 	planet = {

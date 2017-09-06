@@ -83,7 +83,13 @@
  ####################################
  civic_cpu:0 "CPU"
  civic_cpu_desc:0 "This country is ruled by a CPU."
- 
+ ####################################
+ # Civics
+ ####################################
+ ap_cpu_ascension:0 "CPU Ascension"
+ ap_cpu_ascension_desc:0 "Your people's faith in you has turned you into a Console Patron Unit. With this newfound power you can become the most powerful nation in the galaxy"
+ requires_ascension_perks_5:1 "$TRIGGER_FAIL$Requires five other Ascension Perks to be selected first."
+ allow_cpu_ascension:0 "Gives your empire the CPU civic.\n\n§RYour civics will be replaced with the CPU civic, but you can re-add them.§!"
  ####################################
  # Starting Text
  ####################################

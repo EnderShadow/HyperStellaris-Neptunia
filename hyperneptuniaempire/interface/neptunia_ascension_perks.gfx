@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	############################
+	### ASCENSION PERK ICONS ###
+	############################
+	
+	spriteType = {
+		name = "GFX_ap_cpu_ascension"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_cpu_ascension.dds"
+		alwaystransparent = yes
+	}
+}

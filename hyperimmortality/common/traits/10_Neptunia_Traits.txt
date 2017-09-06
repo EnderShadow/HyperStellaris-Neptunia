@@ -4,9 +4,9 @@
 
 trait_immortal = {
 	cost = 0
-	modification = no
-	icon = "gfx/interface/icons/traits/trait_immortal.dds"
+	advanced_trait = yes
+	icon = "interface/icons/traits/trait_immortal.dds"
 	immortal_leaders = yes
 
-	opposites = { "leader_trait_resilient" "trait_venerable" "trait_fleeting" "trait_enduring" }
+	opposites = { "trait_venerable" "trait_fleeting" "trait_enduring" }
 }

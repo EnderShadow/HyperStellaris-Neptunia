@@ -1,0 +1,35 @@
+#######################################
+### Utopia Expanded Ascension Perks ###
+#######################################
+
+ap_cpu_ascension = {
+	on_enabled = {
+		custom_tooltip = "allow_cpu_ascension"
+		#set_country_flag = cpu_ascension
+		change_government = {
+			#authority = prev.authority
+			civics = {
+				civic = civic_cpu
+			}
+		}
+		add_influence = 250
+	}
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_5"
+			num_ascension_perks > 4
+		}
+	}
+	
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_cpu_ascension
+			has_civic = civic_cpu
+			has_ethic = ethic_hive_mind
+		}
+	}
+	
+	ai_weight = {
+		factor = 0
+	}
+}
