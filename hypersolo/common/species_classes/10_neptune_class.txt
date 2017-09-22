@@ -1,3 +1,6 @@
+@species_trait_points = 2
+@species_max_traits = 5
+
 Neptunia = {
 	playable = { always = yes }
 	randomized = no
@@ -11,4 +14,7 @@ Neptunia = {
 	}
 	graphical_culture = avian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
+	
+	species_trait_points = @species_trait_points
+	species_max_traits = @species_max_traits
 }

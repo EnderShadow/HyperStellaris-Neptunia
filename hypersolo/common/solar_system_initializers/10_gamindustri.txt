@@ -47,150 +47,7 @@ nep_system_initializer = {
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = {
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
+			generate_start_buildings_and_blockers = yes		
 		}
 		
 		moon = {
@@ -452,150 +309,7 @@ blnc_system_initializer = {
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = {
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
+			generate_start_buildings_and_blockers = yes		
 		}
 		
 		moon = {
@@ -772,150 +486,7 @@ noir_system_initializer = {
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = {
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
+			generate_start_buildings_and_blockers = yes		
 		}
 		
 		moon = {
@@ -1193,150 +764,7 @@ vert_system_initializer = {
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = {
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
+			generate_start_buildings_and_blockers = yes		
 		}
 	}
 	
@@ -1558,150 +986,7 @@ tari_system_initializer = {
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = {
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}
-					}
-					33 = {
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 2
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}
-			}
+			generate_start_buildings_and_blockers = yes		
 		}
 		
 		moon = {
@@ -1920,11 +1205,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -1936,11 +1217,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -1952,11 +1229,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_farmland_deposit
 				}
 			}
 			last_created_country = {
@@ -2135,11 +1408,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -2151,11 +1420,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -2167,11 +1432,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_farmland_deposit
 				}
 			}
 			last_created_country = {
@@ -2360,11 +1621,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -2376,11 +1633,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -2392,11 +1645,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_farmland_deposit
 				}
 			}
 			last_created_country = {
@@ -2592,11 +1841,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -2608,11 +1853,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_factory"
-					add_resource = {
-						resource = minerals
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_mineral_deposit
 				}
 			}
 			while = {
@@ -2624,11 +1865,7 @@ gamindustri_system_initializer = {
 						has_grown_pop = yes
 					}
 					set_building = "building_primitive_farm"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}
+					set_deposit = d_farmland_deposit
 				}
 			}
 			last_created_country = {

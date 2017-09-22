@@ -25,7 +25,7 @@ ap_cpu_ascension = {
 		NOT = {
 			has_ascension_perk = ap_cpu_ascension
 			has_civic = civic_cpu
-			has_ethic = ethic_hive_mind
+			has_ethic = ethic_gestalt_consciousness
 		}
 	}
 	

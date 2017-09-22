@@ -8,4 +8,4 @@ tags={
 	"Fixes"
 }
 picture="thumb.jpg"
-supported_version="1.7.*"
+supported_version="1.8.*"
