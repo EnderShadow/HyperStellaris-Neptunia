@@ -27,6 +27,13 @@ Neptunia = {
 		home_system = Gamindustri
 		name_list = "Neptunia"
 	}
+	eden = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Eden"
+		home_system = Gamindustri
+		name_list = "Neptunia"
+	}
 	tari = {
 		name = "CPU"
 		plural = "CPUs"

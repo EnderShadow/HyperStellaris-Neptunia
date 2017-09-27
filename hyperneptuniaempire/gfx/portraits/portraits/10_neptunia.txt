@@ -1,56 +1,548 @@
 portraits = {
-	neptune1 = { texturefile = "gfx/models/portraits/neptunias/purpleheart.dds" }
-	neptune2 = { texturefile = "gfx/models/portraits/neptunias/blackheart.dds" }
-	neptune3 = { texturefile = "gfx/models/portraits/neptunias/liliacheart.dds" }
-	neptune4 = { texturefile = "gfx/models/portraits/neptunias/whiteheart.dds" }
-	neptune5 = { texturefile = "gfx/models/portraits/neptunias/greenheart.dds" }
-	neptune6 = { texturefile = "gfx/models/portraits/neptunias/blueheart.dds" }
-	
-	neptune10 = { texturefile = "gfx/models/portraits/neptunias/histy.dds" }
-	neptune11 = { texturefile = "gfx/models/portraits/neptunias/plutia.dds" }
-	neptune12 = { texturefile = "gfx/models/portraits/neptunias/nepgear.dds" }
-	neptune13 = { texturefile = "gfx/models/portraits/neptunias/neptune.dds" }
-	
-	neptune20 = { texturefile = "gfx/models/portraits/neptunias/blanc.dds" }
-	neptune21 = { texturefile = "gfx/models/portraits/neptunias/rom.dds" }
-	neptune22 = { texturefile = "gfx/models/portraits/neptunias/ram.dds" }
-	neptune23 = { texturefile = "gfx/models/portraits/neptunias/red.dds" }
-	
-	neptune30 = { texturefile = "gfx/models/portraits/neptunias/noire.dds" }
-	neptune31 = { texturefile = "gfx/models/portraits/neptunias/keiji.dds" }
-	neptune32 = { texturefile = "gfx/models/portraits/neptunias/uni.dds" }
-	neptune33 = { texturefile = "gfx/models/portraits/neptunias/compa.dds" }
-	
-	neptune40 = { texturefile = "gfx/models/portraits/neptunias/vert.dds" }
-	neptune41 = { texturefile = "gfx/models/portraits/neptunias/IF.dds" }
-	neptune42 = { texturefile = "gfx/models/portraits/neptunias/chika.dds" }
-	neptune43 = { texturefile = "gfx/models/portraits/neptunias/peashy.dds" }
-	
-	neptune50 = { texturefile = "gfx/models/portraits/neptunias/rei.dds" }
-	neptune51 = { texturefile = "gfx/models/portraits/neptunias/keiji.dds" }
-	neptune52 = { texturefile = "gfx/models/portraits/neptunias/histy.dds" }
-	neptune53 = { texturefile = "gfx/models/portraits/neptunias/chika.dds" }
-	
-	neptune60 = { texturefile = "gfx/models/portraits/neptunias/nepg1.dds" }
-	neptune61 = { texturefile = "gfx/models/portraits/neptunias/nepg2.dds" }
-	neptune62 = { texturefile = "gfx/models/portraits/neptunias/nepgvii.dds" }
-	neptune63 = { texturefile = "gfx/models/portraits/neptunias/uni1.dds" }
-	neptune64 = { texturefile = "gfx/models/portraits/neptunias/uni2.dds" }
-	neptune65 = { texturefile = "gfx/models/portraits/neptunias/rom_ram.dds" }
+####PLANEPTUNE##########
+	purpleheart		= { texturefile = "gfx/models/portraits/neptunias/purpleheart.dds" }
+	purpleheart2	= { texturefile = "gfx/models/portraits/neptunias/purpleheart2.dds"}
+	orangeheart		= { texturefile = "gfx/models/portraits/neptunias/orangeheart.dds"}
+	irisheart		= { texturefile = "gfx/models/portraits/neptunias/irisheart.dds" }
+	purplesister1	= { texturefile = "gfx/models/portraits/neptunias/nepg1.dds" }
+	purplesister2	= { texturefile = "gfx/models/portraits/neptunias/nepg2.dds" }
+	purplesister3	= { texturefile = "gfx/models/portraits/neptunias/nepgvii.dds" }
+	histoire		= { texturefile = "gfx/models/portraits/neptunias/histoire.dds" }
+	ultrahistoire	= { texturefile = "gfx/models/portraits/neptunias/ultrahistoire.dds"}
+	neptune			= { texturefile = "gfx/models/portraits/neptunias/neptune.dds" }
+	uzume			= { texturefile = "gfx/models/portraits/neptunias/uzume.dds"}
+	plutia			= { texturefile = "gfx/models/portraits/neptunias/plutia.dds" }
+	nepgear			= { texturefile = "gfx/models/portraits/neptunias/nepgear.dds" }
+	nepgear2		= { texturefile = "gfx/models/portraits/neptunias/nepgear2.dds"}
+
+####LOWEE##########
+	whiteheart		= { texturefile = "gfx/models/portraits/neptunias/whiteheart.dds" }
+	whiteheart2		= { texturefile = "gfx/models/portraits/neptunias/whiteheart2.dds"}
+	whitesisters	= { texturefile = "gfx/models/portraits/neptunias/rom_ram.dds" }
+	mina			= { texturefile = "gfx/models/portraits/neptunias/mina.dds"}
+	blanc			= { texturefile = "gfx/models/portraits/neptunias/blanc.dds" }
+	rom				= { texturefile = "gfx/models/portraits/neptunias/rom.dds" }
+	ram				= { texturefile = "gfx/models/portraits/neptunias/ram.dds" }
+
+####LASTATION##########
+	blackheart		= { texturefile = "gfx/models/portraits/neptunias/blackheart.dds" }
+	blackheart2		= { texturefile = "gfx/models/portraits/neptunias/blackheart2.dds"}
+	blacksister1	= { texturefile = "gfx/models/portraits/neptunias/uni1.dds" }
+	blacksister2	= { texturefile = "gfx/models/portraits/neptunias/uni2.dds" }
+	kei				= { texturefile = "gfx/models/portraits/neptunias/kei.dds" }
+	noire			= { texturefile = "gfx/models/portraits/neptunias/noire.dds" }
+	uni				= { texturefile = "gfx/models/portraits/neptunias/uni.dds" }
+	lid				= { texturefile = "gfx/models/portraits/neptunias/lid.dds"}
+	moru			= { texturefile = "gfx/models/portraits/neptunias/moru.dds"}
+	leefi			= { texturefile = "gfx/models/portraits/neptunias/leefi.dds"}
+	einai			= { texturefile = "gfx/models/portraits/neptunias/einai.dds"}
+	tsunemi			= { texturefile = "gfx/models/portraits/neptunias/tsunemi.dds"}
+	resta			= { texturefile = "gfx/models/portraits/neptunias/resta.dds"}
+
+####LEANBOX##########
+	greenheart		= { texturefile = "gfx/models/portraits/neptunias/greenheart.dds" }
+	greenheart2		= { texturefile = "gfx/models/portraits/neptunias/greenheart2.dds"}
+	vert			= { texturefile = "gfx/models/portraits/neptunias/vert.dds" }
+	vert2			= { texturefile = "gfx/models/portraits/neptunias/vert2.dds"}
+	chika			= { texturefile = "gfx/models/portraits/neptunias/chika.dds" }
+
+####EDEN##########
+	yellowheart		= { texturefile = "gfx/models/portraits/neptunias/yellowheart.dds"}
+	peashy			= { texturefile = "gfx/models/portraits/neptunias/peashy.dds" }
+	anonydeath		= { texturefile = "gfx/models/portraits/neptunias/anonydeath.dds"}
+
+####TARI##########
+	blueheart		= { texturefile = "gfx/models/portraits/neptunias/blueheart.dds" }
+	rei				= { texturefile = "gfx/models/portraits/neptunias/rei.dds" }
+
+####MAKERS##########
+	compa			= { texturefile = "gfx/models/portraits/neptunias/compa.dds" }
+	iffy			= { texturefile = "gfx/models/portraits/neptunias/if.dds" }
+	red				= { texturefile = "gfx/models/portraits/neptunias/red.dds" }
+	red2			= { texturefile = "gfx/models/portraits/neptunias/red2.dds"}
+	gust			= { texturefile = "gfx/models/portraits/neptunias/gust.dds"}
+	falcom			= { texturefile = "gfx/models/portraits/neptunias/falcom.dds"}
+	broccoli		= { texturefile = "gfx/models/portraits/neptunias/broccoli.dds"}
+	marvelousaql	= { texturefile = "gfx/models/portraits/neptunias/marvelousaql.dds"}
+	mages			= { texturefile = "gfx/models/portraits/neptunias/mages.dds"}
+	teken			= { texturefile = "gfx/models/portraits/neptunias/teken.dds"}
+	cyberconnect2	= { texturefile = "gfx/models/portraits/neptunias/cyberconnect2.dds"}
+	cave			= { texturefile = "gfx/models/portraits/neptunias/cave.dds"}
+	5pb				= { texturefile = "gfx/models/portraits/neptunias/5pb.dds"}
+
+####HYPERDIMENSION MONSTER##########
+	dogoo			= { texturefile = "gfx/models/portraits/neptunias/bluedogoo.dds"}
+	greendogoo		= { texturefile = "gfx/models/portraits/neptunias/greendogoo.dds"}
+	greydogoo		= { texturefile = "gfx/models/portraits/neptunias/greydogoo.dds"}
+	reddogoo		= { texturefile = "gfx/models/portraits/neptunias/reddogoo.dds"}
+
+####POP##########
+	pop01			= { texturefile = "gfx/models/portraits/neptunias/pop01.dds"}
+	pop02			= { texturefile = "gfx/models/portraits/neptunias/pop02.dds"}
+	pop03			= { texturefile = "gfx/models/portraits/neptunias/pop03.dds"}
+	pop04			= { texturefile = "gfx/models/portraits/neptunias/pop04.dds"}
+	pop05			= { texturefile = "gfx/models/portraits/neptunias/pop05.dds"}
+	pop06			= { texturefile = "gfx/models/portraits/neptunias/pop06.dds"}
+	pop07			= { texturefile = "gfx/models/portraits/neptunias/pop07.dds"}
+	pop08			= { texturefile = "gfx/models/portraits/neptunias/pop08.dds"}
+	pop09			= { texturefile = "gfx/models/portraits/neptunias/pop09.dds"}
+	pop10			= { texturefile = "gfx/models/portraits/neptunias/pop10.dds"}
+	pop11			= { texturefile = "gfx/models/portraits/neptunias/pop11.dds"}
+	pop12			= { texturefile = "gfx/models/portraits/neptunias/pop12.dds"}
+	pop13			= { texturefile = "gfx/models/portraits/neptunias/pop13.dds"}
+	pop14			= { texturefile = "gfx/models/portraits/neptunias/pop14.dds"}
+	pop15			= { texturefile = "gfx/models/portraits/neptunias/pop15.dds"}
+	pop16			= { texturefile = "gfx/models/portraits/neptunias/pop16.dds"}
+	pop17			= { texturefile = "gfx/models/portraits/neptunias/pop17.dds"}
+	pop18			= { texturefile = "gfx/models/portraits/neptunias/pop18.dds"}
+	pop19			= { texturefile = "gfx/models/portraits/neptunias/pop19.dds"}
+	pop20			= { texturefile = "gfx/models/portraits/neptunias/pop20.dds"}
 }
 
 portrait_groups = {
+	neptunia_all = {
+		default = purpleheart
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
+					yellowheart
+					peashy
+					anonydeath
+					blueheart
+					rei
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
+					yellowheart
+					peashy
+					anonydeath
+					blueheart
+					rei
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
+					yellowheart
+					peashy
+					anonydeath
+					blueheart
+					rei
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
+					yellowheart
+					peashy
+					anonydeath
+					blueheart
+					rei
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
+				}
+			}
+		}
+		#leader scope
+		ruler = {
+			add = {
+				portraits = {
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
+					yellowheart
+					peashy
+					anonydeath
+					blueheart
+					rei
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
+				}
+			}
+		}
+	}
+
 	planeptune = {
-		default = neptune1
+		default = purpleheart
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					neptune1
-					neptune3
-					neptune10
-					neptune11
-					neptune12
-					neptune13
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
 				}
 			}
 		}
@@ -58,12 +550,20 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					neptune1
-					neptune3
-					neptune10
-					neptune11
-					neptune12
-					neptune13
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
 				}
 			}
 		}
@@ -71,11 +571,47 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					neptune10
-					neptune11
-					neptune12
-					neptune13
-					neptune43
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
+					peashy
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
 				}
 			}
 
@@ -84,33 +620,64 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					neptune10
-					neptune60
-					neptune61
-					neptune62
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
+					histoire
+					ultrahistoire
+					neptune
+					uzume
+					plutia
+					nepgear
+					nepgear2
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
 				}
 			}
 		}
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
 				portraits = {
-					neptune1
-					neptune3
+					purpleheart
+					purpleheart2
+					orangeheart
+					irisheart
+					purplesister1
+					purplesister2
+					purplesister3
 				}
 			}
 		}
 	}
+
 	lowee = {
-		default = neptune4
+		default = whiteheart
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					neptune4
-					neptune20
-					neptune21
-					neptune22
-					neptune23
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
 				}
 			}
 		}
@@ -118,7 +685,13 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					neptune4
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
 				}
 			}
 		}
@@ -126,10 +699,43 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					neptune20
-					neptune21
-					neptune22
-					neptune23
+					mina
+					blanc
+					rom
+					ram
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
 				}
 			}
 
@@ -138,31 +744,52 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					neptune65
+					whiteheart
+					whiteheart2
+					whitesisters
+					mina
+					blanc
+					rom
+					ram
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
 				}
 			}
 
-		}	
-		#leader scope 
+		}
+		#leader scope
 		ruler = {
 			add = {
 				portraits = {
-					neptune4
+					whiteheart
+					whiteheart2
+					whitesisters
 				}
 			}
 		}
 	}
-	
+
 	leanbox = {
-		default = neptune5
+		default = greenheart
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					neptune5
-					neptune40
-					neptune41
-					neptune42
-					neptune43
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
 				}
 			}
 		}
@@ -170,7 +797,11 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					neptune5
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
 				}
 			}
 		}
@@ -178,8 +809,42 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					neptune41
-					neptune43
+					vert
+					vert2
+					chika
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
 				}
 			}
 
@@ -188,32 +853,57 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					neptune40
-					neptune42
+					greenheart
+					greenheart2
+					vert
+					vert2
+					chika
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
 				}
 			}
 
-		}	
-		#leader scope 
+		}
+		#leader scope
 		ruler = {
 			add = {
 				portraits = {
-					neptune5
+					greenheart
+					greenheart2
 				}
 			}
 		}
 	}
-	
+
 	lastation = {
-		default = neptune2
+		default = blackheart
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					neptune2
-					neptune30
-					neptune31
-					neptune32
-					neptune33
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
 				}
 			}
 		}
@@ -221,7 +911,19 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					neptune2
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
 				}
 			}
 		}
@@ -229,10 +931,48 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					neptune30
-					neptune31
-					neptune32
-					neptune33
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
 				}
 			}
 
@@ -241,33 +981,57 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					neptune31
-					neptune63
-					neptune64
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
+					kei
+					noire
+					uni
+					lid
+					moru
+					leefi
+					einai
+					tsunemi
+					resta
+					compa
+					iffy
+					red
+					red2
+					gust
+					falcom
+					broccoli
+					marvelousaql
+					mages
+					teken
+					cyberconnect2
+					cave
+					5pb
 				}
 			}
 
-		}	
-		#leader scope 
+		}
+		#leader scope
 		ruler = {
 			add = {
 				portraits = {
-					neptune2
+					blackheart
+					blackheart2
+					blacksister1
+					blacksister2
 				}
 			}
 		}
 	}
-	
-	tari = {
-		default = neptune6
+
+	eden = {
+		default = yellowheart
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
 				portraits = {
-					neptune6
-					neptune50
-					neptune51
-					neptune52
-					neptune53
+					yellowheart
+					peashy
+					anonydeath
 				}
 			}
 		}
@@ -275,7 +1039,9 @@ portrait_groups = {
 		species = { #generic portrait for a species
 			add = {
 				portraits = {
-					neptune6
+					yellowheart
+					peashy
+					anonydeath
 				}
 			}
 		}
@@ -283,10 +1049,28 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					neptune50
-					neptune51
-					neptune52
-					neptune53
+					peashy
+					anonydeath
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
 				}
 			}
 
@@ -295,20 +1079,146 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				portraits = {
-					neptune6
-					neptune50
-					neptune51
-					neptune52
-					neptune53
+					yellowheart
+					peashy
+					anonydeath
 				}
 			}
 
-		}	
-		#leader scope 
+		}
+		#leader scope
 		ruler = {
 			add = {
 				portraits = {
-					neptune6
+					yellowheart
+				}
+			}
+		}
+	}
+
+	tari = {
+		default = blueheart
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					blueheart
+					rei
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					blueheart
+					rei
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rei
+					pop01
+					pop02
+					pop03
+					pop04
+					pop05
+					pop06
+					pop07
+					pop08
+					pop09
+					pop10
+					pop11
+					pop12
+					pop13
+					pop14
+					pop15
+					pop16
+					pop17
+					pop18
+					pop19
+					pop20
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					blueheart
+					rei
+				}
+			}
+
+		}
+		#leader scope
+		ruler = {
+			add = {
+				portraits = {
+					blueheart
+				}
+			}
+		}
+	}
+
+	dogoo = {
+		default = dogoo
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					dogoo
+					greendogoo
+					greydogoo
+					reddogoo
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					dogoo
+					greendogoo
+					greydogoo
+					reddogoo
+				}
+			}
+		}
+				#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					dogoo
+					greendogoo
+					greydogoo
+					reddogoo
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					dogoo
+					greendogoo
+					greydogoo
+					reddogoo
+				}
+			}
+
+		}
+		#leader scope
+		ruler = {
+			add = {
+				portraits = {
+					dogoo
+					greendogoo
+					greydogoo
+					reddogoo
 				}
 			}
 		}

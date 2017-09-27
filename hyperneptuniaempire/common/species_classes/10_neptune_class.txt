@@ -6,13 +6,16 @@ Neptunia = {
 	playable = { always = yes }
 	randomized = yes
 	
-	portraits = { 
+	portraits = {
+	"neptunia_all"
 	"planeptune"
 	"lowee"
 	"leanbox"
 	"lastation"
+	"eden"
 	"tari"
+	"dogoo"
 	}
-	graphical_culture = avian_01
+	graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }

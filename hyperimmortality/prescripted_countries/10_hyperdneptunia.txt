@@ -41,7 +41,7 @@
 	ruler = {
 		gender = female
 		name = "Purple Heart"
-		portrait = "neptune1"
+		portrait = "purpleheart"
 		texture = 0
 		hair = 0
 		clothes = 0
@@ -102,7 +102,7 @@
 	ruler = {
 		gender = female
 		name = "Black Heart"
-		portrait = "neptune2"
+		portrait = "blackheart"
 		texture = 0
 		hair = 0
 		clothes = 0
@@ -163,7 +163,7 @@
 	ruler = {
 		gender = female
 		name = "White Heart"
-		portrait = "neptune4"
+		portrait = "whiteheart"
 		texture = 0
 		hair = 0
 		clothes = 0
@@ -225,7 +225,7 @@
 	ruler = {
 		gender = female
 		name = "Green Heart"
-		portrait = "neptune5"
+		portrait = "greenheart"
 		texture = 0
 		hair = 0
 		clothes = 0
@@ -285,7 +285,7 @@
 	ruler = {
 		gender = female
 		name = "Iris Heart"
-		portrait = "neptune3"
+		portrait = "irisheart"
 		texture = 0
 		hair = 0
 		clothes = 0
@@ -346,7 +346,7 @@
 	ruler = {
 		gender = female
 		name = "Blue Heart"
-		portrait = "neptune6"
+		portrait = "blueheart"
 		texture = 0
 		hair = 0
 		clothes = 0
