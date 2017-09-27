@@ -4,6 +4,7 @@
 
 trait_immortal = {
 	cost = 0
+	allowed_archetypes = { BIOLOGICAL }
 	advanced_trait = yes
 	icon = "interface/icons/traits/trait_immortal.dds"
 	immortal_leaders = yes
