@@ -35,7 +35,7 @@ nep_system_initializer = {
 		class = "pc_continental"
 		orbit_distance = 40
 		orbit_angle = 120
-		size = 16
+		size = 25
 		home_planet = yes
 		starting_planet = yes
 		has_ring = yes
@@ -52,7 +52,7 @@ nep_system_initializer = {
 		
 		moon = {
 			name = "Nepissa"
-			class = "pc_arctic"
+			class = "pc_frozen"
 			size = 9
 			orbit_distance = 25
 			orbit_angle = 115
@@ -62,10 +62,10 @@ nep_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_arid_un"
+		class = "pc_barren"
 		orbit_distance = 20
 		orbit_angle = 60
-		size = 16
+		size = 25
 		has_ring = no
 		
 		init_effect = {
@@ -74,7 +74,7 @@ nep_system_initializer = {
 		
 		moon = {
 			name = "Lasporti"
-			class = "pc_desert_un"
+			class = "pc_barren"
 			size = 4
 			orbit_distance = 15
 			orbit_angle = 25
@@ -83,7 +83,7 @@ nep_system_initializer = {
 		
 		moon = {
 			name = "Lasinvit"
-			class = "pc_ocean_un"
+			class = "pc_toxic"
 			size = 5
 			orbit_distance = 3
 			orbit_angle = 69
@@ -93,10 +93,10 @@ nep_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_arctic_un"
+		class = "pc_frozen"
 		orbit_distance = 30
 		orbit_angle = -160
-		size = 14
+		size = 25
 		has_ring = yes
 		
 		init_effect = {
@@ -113,7 +113,7 @@ nep_system_initializer = {
 		}
 		moon = {
 			name = "Lodee"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 5
 			orbit_angle = 25
@@ -121,7 +121,7 @@ nep_system_initializer = {
 		}
 		moon = {
 			name = "Loess"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 0
 			orbit_angle = -25
@@ -131,7 +131,7 @@ nep_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_tropical_un"
+		class = "pc_toxic"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -240,10 +240,10 @@ blnc_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_continental_un"
+		class = "pc_toxic"
 		orbit_distance = 40
 		orbit_angle = 120
-		size = 16
+		size = 25
 		has_ring = yes
 		modifiers = none
 		
@@ -253,7 +253,7 @@ blnc_system_initializer = {
 		
 		moon = {
 			name = "Nepissa"
-			class = "pc_arctic_un"
+			class = "pc_frozen"
 			size = 9
 			orbit_distance = 25
 			orbit_angle = 115
@@ -263,10 +263,10 @@ blnc_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_arid_un"
+		class = "pc_barren"
 		orbit_distance = 20
 		orbit_angle = 60
-		size = 16
+		size = 25
 		has_ring = no
 		
 		init_effect = {
@@ -275,7 +275,7 @@ blnc_system_initializer = {
 		
 		moon = {
 			name = "Lasporti"
-			class = "pc_desert_un"
+			class = "pc_barren"
 			size = 4
 			orbit_distance = 15
 			orbit_angle = 25
@@ -284,7 +284,7 @@ blnc_system_initializer = {
 		
 		moon = {
 			name = "Lasinvit"
-			class = "pc_ocean_un"
+			class = "pc_toxic"
 			size = 5
 			orbit_distance = 3
 			orbit_angle = 69
@@ -297,7 +297,7 @@ blnc_system_initializer = {
 		class = "pc_arctic"
 		orbit_distance = 30
 		orbit_angle = -160
-		size = 14
+		size = 25
 		home_planet = yes
 		starting_planet = yes
 		has_ring = yes
@@ -314,7 +314,7 @@ blnc_system_initializer = {
 		
 		moon = {
 			name = "Gamboi"
-			class = "pc_barren_ha"
+			class = "pc_barren"
 			size = 4
 			orbit_distance = 20
 			orbit_angle = 115
@@ -322,7 +322,7 @@ blnc_system_initializer = {
 		}
 		moon = {
 			name = "Lodee"
-			class = "pc_tundra"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 5
 			orbit_angle = 25
@@ -330,7 +330,7 @@ blnc_system_initializer = {
 		}
 		moon = {
 			name = "Loess"
-			class = "pc_tundra"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 0
 			orbit_angle = -25
@@ -340,7 +340,7 @@ blnc_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_tropical_un"
+		class = "pc_toxic"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -448,10 +448,10 @@ noir_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_continental_un"
+		class = "pc_toxic"
 		orbit_distance = 40
 		orbit_angle = 120
-		size = 16
+		size = 25
 		has_ring = yes
 		modifiers = none
 		
@@ -461,7 +461,7 @@ noir_system_initializer = {
 		
 		moon = {
 			name = "Nepissa"
-			class = "pc_arctic_un"
+			class = "pc_frozen"
 			size = 9
 			orbit_distance = 25
 			orbit_angle = 115
@@ -474,7 +474,7 @@ noir_system_initializer = {
 		class = "pc_arid"
 		orbit_distance = 20
 		orbit_angle = 60
-		size = 16
+		size = 25
 		home_planet = yes
 		starting_planet = yes
 		has_ring = no
@@ -491,7 +491,7 @@ noir_system_initializer = {
 		
 		moon = {
 			name = "Lasporti"
-			class = "pc_desert"
+			class = "pc_barren"
 			size = 4
 			orbit_distance = 15
 			orbit_angle = 25
@@ -500,7 +500,7 @@ noir_system_initializer = {
 		
 		moon = {
 			name = "Lasinvit"
-			class = "pc_ocean"
+			class = "pc_toxic"
 			size = 5
 			orbit_distance = 3
 			orbit_angle = 69
@@ -510,10 +510,10 @@ noir_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_arctic_un"
+		class = "pc_frozen"
 		orbit_distance = 30
 		orbit_angle = -160
-		size = 14
+		size = 25
 		has_ring = yes
 		
 		init_effect = {
@@ -530,7 +530,7 @@ noir_system_initializer = {
 		}
 		moon = {
 			name = "Lodee"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 5
 			orbit_angle = 25
@@ -538,7 +538,7 @@ noir_system_initializer = {
 		}
 		moon = {
 			name = "Loess"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 0
 			orbit_angle = -25
@@ -548,7 +548,7 @@ noir_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_tropical_un"
+		class = "pc_toxic"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -656,10 +656,10 @@ vert_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_continental_un"
+		class = "pc_toxic"
 		orbit_distance = 40
 		orbit_angle = 120
-		size = 16
+		size = 25
 		has_ring = yes
 		modifiers = none
 		
@@ -669,7 +669,7 @@ vert_system_initializer = {
 		
 		moon = {
 			name = "Nepissa"
-			class = "pc_arctic_un"
+			class = "pc_frozen"
 			size = 9
 			orbit_distance = 25
 			orbit_angle = 115
@@ -679,10 +679,10 @@ vert_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_arid_un"
+		class = "pc_barren"
 		orbit_distance = 20
 		orbit_angle = 60
-		size = 16
+		size = 25
 		has_ring = no
 		
 		init_effect = {
@@ -691,7 +691,7 @@ vert_system_initializer = {
 		
 		moon = {
 			name = "Lasporti"
-			class = "pc_desert_un"
+			class = "pc_barren"
 			size = 4
 			orbit_distance = 15
 			orbit_angle = 25
@@ -700,7 +700,7 @@ vert_system_initializer = {
 		
 		moon = {
 			name = "Lasinvit"
-			class = "pc_ocean_un"
+			class = "pc_toxic"
 			size = 5
 			orbit_distance = 3
 			orbit_angle = 69
@@ -710,10 +710,10 @@ vert_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_arctic_un"
+		class = "pc_frozen"
 		orbit_distance = 30
 		orbit_angle = -160
-		size = 14
+		size = 25
 		has_ring = yes
 		
 		init_effect = {
@@ -730,7 +730,7 @@ vert_system_initializer = {
 		}
 		moon = {
 			name = "Lodee"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 5
 			orbit_angle = 25
@@ -738,7 +738,7 @@ vert_system_initializer = {
 		}
 		moon = {
 			name = "Loess"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 0
 			orbit_angle = -25
@@ -864,10 +864,10 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_continental_un"
+		class = "pc_toxic"
 		orbit_distance = 40
 		orbit_angle = 120
-		size = 16
+		size = 25
 		has_ring = yes
 		modifiers = none
 		
@@ -877,7 +877,7 @@ tari_system_initializer = {
 		
 		moon = {
 			name = "Nepissa"
-			class = "pc_arctic_un"
+			class = "pc_frozen"
 			size = 9
 			orbit_distance = 25
 			orbit_angle = 115
@@ -887,10 +887,10 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_arid_un"
+		class = "pc_barren"
 		orbit_distance = 20
 		orbit_angle = 60
-		size = 16
+		size = 25
 		has_ring = no
 		
 		init_effect = {
@@ -899,7 +899,7 @@ tari_system_initializer = {
 		
 		moon = {
 			name = "Lasporti"
-			class = "pc_desert_un"
+			class = "pc_barren"
 			size = 4
 			orbit_distance = 15
 			orbit_angle = 25
@@ -908,7 +908,7 @@ tari_system_initializer = {
 		
 		moon = {
 			name = "Lasinvit"
-			class = "pc_ocean_un"
+			class = "pc_toxic"
 			size = 5
 			orbit_distance = 3
 			orbit_angle = 69
@@ -918,10 +918,10 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_arctic_un"
+		class = "pc_frozen"
 		orbit_distance = 30
 		orbit_angle = -160
-		size = 14
+		size = 25
 		has_ring = yes
 		
 		init_effect = {
@@ -938,7 +938,7 @@ tari_system_initializer = {
 		}
 		moon = {
 			name = "Lodee"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 5
 			orbit_angle = 25
@@ -946,7 +946,7 @@ tari_system_initializer = {
 		}
 		moon = {
 			name = "Loess"
-			class = "pc_tundra_un"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 0
 			orbit_angle = -25
@@ -956,7 +956,7 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_tropical_un"
+		class = "pc_toxic"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -970,11 +970,11 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Tari"
-		class = "pc_barren_ha"
+		class = "pc_desert"
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_distance = -50
 		orbit_angle = -210
-		size = 16
+		size = 40
 		home_planet = yes
 		starting_planet = yes
 		has_ring = yes
@@ -991,7 +991,7 @@ tari_system_initializer = {
 		
 		moon = {
 			name = "Tari 2600"
-			class = "pc_asteroid_ha"
+			class = "pc_asteroid"
 			size = 1
 			orbit_distance = 10
 			orbit_angle = 45
@@ -999,7 +999,7 @@ tari_system_initializer = {
 		}
 		moon = {
 			name = "Jaguari"
-			class = "pc_asteroid_ha"
+			class = "pc_asteroid"
 			size = 1
 			orbit_distance = 1
 			orbit_angle = 125
@@ -1007,7 +1007,7 @@ tari_system_initializer = {
 		}
 		moon = {
 			name = "Tari 5200"
-			class = "pc_asteroid_ha"
+			class = "pc_asteroid"
 			size = 2
 			orbit_distance = 1
 			orbit_angle = 250
@@ -1015,7 +1015,7 @@ tari_system_initializer = {
 		}
 		moon = {
 			name = "Tari 7800"
-			class = "pc_asteroid_ha"
+			class = "pc_asteroid"
 			size = 3
 			orbit_distance = 1
 			orbit_angle = 350
@@ -1023,7 +1023,7 @@ tari_system_initializer = {
 		}
 		moon = {
 			name = "Cosmos"
-			class = "pc_asteroid_ha"
+			class = "pc_asteroid"
 			size = 1
 			orbit_distance = 1
 			orbit_angle = 210
@@ -1031,7 +1031,7 @@ tari_system_initializer = {
 		}
 		moon = {
 			name = "Lynx"
-			class = "pc_asteroid_ha"
+			class = "pc_asteroid"
 			size = 2
 			orbit_distance = 5
 			orbit_angle = 178
@@ -1077,7 +1077,7 @@ gamindustri_system_initializer = {
 		class = "pc_continental"
 		orbit_distance = 40
 		orbit_angle = 120
-		size = 16
+		size = 25
 		has_ring = yes
 		tile_blockers = none
 		modifiers = none
@@ -1268,7 +1268,7 @@ gamindustri_system_initializer = {
 		
 		moon = {
 			name = "Nepissa"
-			class = "pc_arctic"
+			class = "pc_frozen"
 			size = 9
 			orbit_distance = 25
 			orbit_angle = 115
@@ -1281,7 +1281,7 @@ gamindustri_system_initializer = {
 		class = "pc_arid"
 		orbit_distance = 20
 		orbit_angle = 60
-		size = 16
+		size = 25
 		has_ring = no
 		tile_blockers = none
 		modifiers = none
@@ -1471,7 +1471,7 @@ gamindustri_system_initializer = {
 		
 		moon = {
 			name = "Lasporti"
-			class = "pc_desert"
+			class = "pc_barren"
 			size = 4
 			orbit_distance = 15
 			orbit_angle = 25
@@ -1480,7 +1480,7 @@ gamindustri_system_initializer = {
 		
 		moon = {
 			name = "Lasinvit"
-			class = "pc_ocean"
+			class = "pc_toxic"
 			size = 5
 			orbit_distance = 3
 			orbit_angle = 69
@@ -1493,7 +1493,7 @@ gamindustri_system_initializer = {
 		class = "pc_arctic"
 		orbit_distance = 30
 		orbit_angle = -160
-		size = 14
+		size = 25
 		has_ring = yes
 		tile_blockers = none
 		modifiers = none
@@ -1692,7 +1692,7 @@ gamindustri_system_initializer = {
 		}
 		moon = {
 			name = "Lodee"
-			class = "pc_tundra"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 5
 			orbit_angle = 25
@@ -1700,7 +1700,7 @@ gamindustri_system_initializer = {
 		}
 		moon = {
 			name = "Loess"
-			class = "pc_tundra"
+			class = "pc_barren_cold"
 			size = 6
 			orbit_distance = 0
 			orbit_angle = -25
