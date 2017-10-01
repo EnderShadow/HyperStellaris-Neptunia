@@ -8,9 +8,10 @@ portraits = {
 	nextpurple		= { texturefile = "gfx/models/portraits/neptunias/nextpurple.dds" }
 	orangeheart		= { texturefile = "gfx/models/portraits/neptunias/orangeheart.dds"}
 	irisheart		= { texturefile = "gfx/models/portraits/neptunias/irisheart.dds" }
-	purplesister	= { texturefile = "gfx/models/portraits/neptunias/nepg1.dds" }
-	purplesister2	= { texturefile = "gfx/models/portraits/neptunias/nepg2.dds" }
-	purplesister3	= { texturefile = "gfx/models/portraits/neptunias/nepgvii.dds" }
+	purplesister	= { texturefile = "gfx/models/portraits/neptunias/purplesister.dds" }
+	purplesister2	= { texturefile = "gfx/models/portraits/neptunias/purplesister2.dds" }
+	purplesister3	= { texturefile = "gfx/models/portraits/neptunias/purplesister3.dds" }
+	purplesister4	= { texturefile = "gfx/models/portraits/neptunias/purplesister4.dds" }
 	histoire		= { texturefile = "gfx/models/portraits/neptunias/histoire.dds" }
 	ultrahistoire	= { texturefile = "gfx/models/portraits/neptunias/ultrahistoire.dds"}
 	neptune			= { texturefile = "gfx/models/portraits/neptunias/neptune.dds" }
@@ -23,7 +24,6 @@ portraits = {
 	plutia			= { texturefile = "gfx/models/portraits/neptunias/plutia.dds" }
 	nepgear			= { texturefile = "gfx/models/portraits/neptunias/nepgear.dds" }
 	nepgear2		= { texturefile = "gfx/models/portraits/neptunias/nepgear2.dds"}
-	nepgear3		= { texturefile = "gfx/models/portraits/neptunias/nepgearhuman.dds" }
 	bsha			= { texturefile = "gfx/models/portraits/neptunias/bsha.dds" }
 	arfoire2		= { texturefile = "gfx/models/portraits/neptunias/zeroarfoire.dds" }
 
@@ -35,7 +35,7 @@ portraits = {
 	whiteheart5		= { texturefile = "gfx/models/portraits/neptunias/4gowh.dds" }
 	whiteheart6		= { texturefile = "gfx/models/portraits/neptunias/ultrawhiteheart.dds" }
 	nextwhite		= { texturefile = "gfx/models/portraits/neptunias/nextwhite.dds" }
-	whitesisters	= { texturefile = "gfx/models/portraits/neptunias/rom_ram.dds" }
+	whitesisters	= { texturefile = "gfx/models/portraits/neptunias/romramhdd.dds" }
 	whitesister		= { texturefile = "gfx/models/portraits/neptunias/romhdd.dds" }
 	whitesister2	= { texturefile = "gfx/models/portraits/neptunias/ramhdd.dds" }
 	mina			= { texturefile = "gfx/models/portraits/neptunias/mina.dds"}
@@ -54,10 +54,10 @@ portraits = {
 	blackheart4		= { texturefile = "gfx/models/portraits/neptunias/4gobh.dds" }
 	blackheart5		= { texturefile = "gfx/models/portraits/neptunias/ultrablackheart.dds" }
 	nextblack		= { texturefile = "gfx/models/portraits/neptunias/nextblack.dds" }
-	blacksister		= { texturefile = "gfx/models/portraits/neptunias/uni3.dds" }
-	blacksister2	= { texturefile = "gfx/models/portraits/neptunias/uni4.dds" }
-	blacksister3	= { texturefile = "gfx/models/portraits/neptunias/uni5.dds" }
-	blacksister4	= { texturefile = "gfx/models/portraits/neptunias/uni6.dds" }
+	blacksister		= { texturefile = "gfx/models/portraits/neptunias/blacksister.dds" }
+	blacksister2	= { texturefile = "gfx/models/portraits/neptunias/blacksister2.dds" }
+	blacksister3	= { texturefile = "gfx/models/portraits/neptunias/blacksister3.dds" }
+	blacksister4	= { texturefile = "gfx/models/portraits/neptunias/blacksister4.dds" }
 	kei				= { texturefile = "gfx/models/portraits/neptunias/kei.dds" }
 	noire			= { texturefile = "gfx/models/portraits/neptunias/noire.dds" }
 	noire2			= { texturefile = "gfx/models/portraits/neptunias/noire2.dds" }
@@ -165,6 +165,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -177,7 +178,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -298,6 +298,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -310,7 +311,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -431,6 +431,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -443,7 +444,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -565,6 +565,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -577,7 +578,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -698,6 +698,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -710,7 +711,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -834,6 +834,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -846,7 +847,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					bsha
 				}
 			}
@@ -866,6 +866,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -878,7 +879,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					bsha
 				}
 			}
@@ -899,7 +899,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					bsha
 					arfoire2
 					peashy
@@ -955,6 +954,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					neptune
@@ -967,7 +967,6 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
-					nepgear3
 					bsha
 					compa
 					iffy
@@ -1000,6 +999,7 @@ portrait_groups = {
 					purplesister
 					purplesister2
 					purplesister3
+					purplesister4
 					histoire
 					ultrahistoire
 					bsha
