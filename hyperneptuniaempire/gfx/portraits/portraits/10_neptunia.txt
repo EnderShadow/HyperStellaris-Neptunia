@@ -7,7 +7,9 @@ portraits = {
 	purpleheart5	= { texturefile = "gfx/models/portraits/neptunias/4goph.dds" }
 	nextpurple		= { texturefile = "gfx/models/portraits/neptunias/nextpurple.dds" }
 	orangeheart		= { texturefile = "gfx/models/portraits/neptunias/orangeheart.dds"}
+	orangeheart2	= { texturefile = "gfx/models/portraits/neptunias/orangeheart.dds"}
 	irisheart		= { texturefile = "gfx/models/portraits/neptunias/irisheart.dds" }
+	irisheart2		= { texturefile = "gfx/models/portraits/neptunias/irisheart2.dds" }
 	purplesister	= { texturefile = "gfx/models/portraits/neptunias/purplesister.dds" }
 	purplesister2	= { texturefile = "gfx/models/portraits/neptunias/purplesister2.dds" }
 	purplesister3	= { texturefile = "gfx/models/portraits/neptunias/purplesister3.dds" }
@@ -24,6 +26,7 @@ portraits = {
 	plutia			= { texturefile = "gfx/models/portraits/neptunias/plutia.dds" }
 	nepgear			= { texturefile = "gfx/models/portraits/neptunias/nepgear.dds" }
 	nepgear2		= { texturefile = "gfx/models/portraits/neptunias/nepgear2.dds"}
+	nepgear3		= { texturefile = "gfx/models/portraits/neptunias/nepgear3.dds"}
 	bsha			= { texturefile = "gfx/models/portraits/neptunias/bsha.dds" }
 	arfoire2		= { texturefile = "gfx/models/portraits/neptunias/zeroarfoire.dds" }
 
@@ -37,22 +40,28 @@ portraits = {
 	nextwhite		= { texturefile = "gfx/models/portraits/neptunias/nextwhite.dds" }
 	whitesisters	= { texturefile = "gfx/models/portraits/neptunias/romramhdd.dds" }
 	whitesister		= { texturefile = "gfx/models/portraits/neptunias/romhdd.dds" }
-	whitesister2	= { texturefile = "gfx/models/portraits/neptunias/ramhdd.dds" }
+	whitesister2	= { texturefile = "gfx/models/portraits/neptunias/romhdd2.dds" }
+	whitesister3	= { texturefile = "gfx/models/portraits/neptunias/ramhdd.dds" }
+	whitesister4	= { texturefile = "gfx/models/portraits/neptunias/ramhdd2.dds" }
 	mina			= { texturefile = "gfx/models/portraits/neptunias/mina.dds"}
 	blanc			= { texturefile = "gfx/models/portraits/neptunias/blanc.dds" }
 	blanc2			= { texturefile = "gfx/models/portraits/neptunias/blanc2.dds" }
-	blanc3			= { texturefile = "gfx/models/portraits/neptunias/ultrablanc.dds" }
+	blanc3			= { texturefile = "gfx/models/portraits/neptunias/blanc3.dds" }
+	blanc4			= { texturefile = "gfx/models/portraits/neptunias/ultrablanc.dds" }
 	romram			= { texturefile = "gfx/models/portraits/neptunias/romramhuman.dds" }
 	rom				= { texturefile = "gfx/models/portraits/neptunias/rom.dds" }
+	rom2			= { texturefile = "gfx/models/portraits/neptunias/rom.dds" }
 	ram				= { texturefile = "gfx/models/portraits/neptunias/ram.dds" }
+	ram2			= { texturefile = "gfx/models/portraits/neptunias/ram.dds" }
 	csha			= { texturefile = "gfx/models/portraits/neptunias/csha.dds" }
 
 ####LASTATION##########
 	blackheart		= { texturefile = "gfx/models/portraits/neptunias/blackheart.dds" }
 	blackheart2		= { texturefile = "gfx/models/portraits/neptunias/blackheart2.dds"}
 	blackheart3		= { texturefile = "gfx/models/portraits/neptunias/blackheart3.dds" }
-	blackheart4		= { texturefile = "gfx/models/portraits/neptunias/4gobh.dds" }
-	blackheart5		= { texturefile = "gfx/models/portraits/neptunias/ultrablackheart.dds" }
+	blackheart4		= { texturefile = "gfx/models/portraits/neptunias/blackheart4.dds" }
+	blackheart5		= { texturefile = "gfx/models/portraits/neptunias/4gobh.dds" }
+	blackheart6		= { texturefile = "gfx/models/portraits/neptunias/ultrablackheart.dds" }
 	nextblack		= { texturefile = "gfx/models/portraits/neptunias/nextblack.dds" }
 	blacksister		= { texturefile = "gfx/models/portraits/neptunias/blacksister.dds" }
 	blacksister2	= { texturefile = "gfx/models/portraits/neptunias/blacksister2.dds" }
@@ -61,7 +70,8 @@ portraits = {
 	kei				= { texturefile = "gfx/models/portraits/neptunias/kei.dds" }
 	noire			= { texturefile = "gfx/models/portraits/neptunias/noire.dds" }
 	noire2			= { texturefile = "gfx/models/portraits/neptunias/noire2.dds" }
-	noire3			= { texturefile = "gfx/models/portraits/neptunias/ultranoire.dds" }
+	noire3			= { texturefile = "gfx/models/portraits/neptunias/noire3.dds" }
+	noire4			= { texturefile = "gfx/models/portraits/neptunias/ultranoire.dds" }
 	uni				= { texturefile = "gfx/models/portraits/neptunias/uni.dds" }
 	uni2			= { texturefile = "gfx/models/portraits/neptunias/uni2.dds" }
 	ksha			= { texturefile = "gfx/models/portraits/neptunias/ksha.dds" }
@@ -161,7 +171,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -178,6 +190,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -294,7 +307,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -311,6 +326,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -427,7 +443,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -444,6 +462,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -561,7 +580,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -578,6 +599,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -694,7 +716,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -711,6 +735,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					whiteheart
 					whiteheart2
 					whiteheart3
@@ -830,7 +855,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -847,6 +874,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					bsha
 				}
 			}
@@ -862,7 +890,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -879,6 +909,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					bsha
 				}
 			}
@@ -899,6 +930,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					bsha
 					arfoire2
 					peashy
@@ -950,7 +982,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -967,6 +1001,7 @@ portrait_groups = {
 					plutia
 					nepgear
 					nepgear2
+					nepgear3
 					bsha
 					compa
 					iffy
@@ -995,7 +1030,9 @@ portrait_groups = {
 					purpleheart5
 					nextpurple
 					orangeheart
+					orangeheart2
 					irisheart
+					irisheart2
 					purplesister
 					purplesister2
 					purplesister3
@@ -1023,13 +1060,18 @@ portrait_groups = {
 					whitesisters
 					whitesister
 					whitesister2
+					whitesister3
+					whitesister4
 					mina
 					blanc
 					blanc2
 					blanc3
+					blanc4
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					csha
 				}
 			}
@@ -1048,13 +1090,18 @@ portrait_groups = {
 					whitesisters
 					whitesister
 					whitesister2
+					whitesister3
+					whitesister4
 					mina
 					blanc
 					blanc2
 					blanc3
+					blanc4
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					csha
 				}
 			}
@@ -1067,9 +1114,12 @@ portrait_groups = {
 					blanc
 					blanc2
 					blanc3
+					blanc4
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					csha
 					compa
 					iffy
@@ -1122,13 +1172,18 @@ portrait_groups = {
 					whitesisters
 					whitesister
 					whitesister2
+					whitesister3
+					whitesister4
 					mina
 					blanc
 					blanc2
 					blanc3
+					blanc4
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					csha
 					compa
 					iffy
@@ -1161,6 +1216,8 @@ portrait_groups = {
 					whitesisters
 					whitesister
 					whitesister2
+					whitesister3
+					whitesister4
 					mina
 					csha
 				}
@@ -1323,6 +1380,7 @@ portrait_groups = {
 					blackheart3
 					blackheart4
 					blackheart5
+					blackheart6
 					nextblack
 					blacksister
 					blacksister2
@@ -1332,6 +1390,7 @@ portrait_groups = {
 					noire
 					noire2
 					noire3
+					noire4
 					uni
 					uni2
 					ksha
@@ -1353,6 +1412,7 @@ portrait_groups = {
 					blackheart3
 					blackheart4
 					blackheart5
+					blackheart6
 					nextblack
 					blacksister
 					blacksister2
@@ -1362,6 +1422,7 @@ portrait_groups = {
 					noire
 					noire2
 					noire3
+					noire4
 					uni
 					uni2
 					ksha
@@ -1382,6 +1443,7 @@ portrait_groups = {
 					noire
 					noire2
 					noire3
+					noire4
 					uni
 					uni2
 					ksha
@@ -1438,6 +1500,7 @@ portrait_groups = {
 					blackheart3
 					blackheart4
 					blackheart5
+					blackheart6
 					nextblack
 					blacksister
 					blacksister2
@@ -1447,6 +1510,7 @@ portrait_groups = {
 					noire
 					noire2
 					noire3
+					noire4
 					uni
 					uni2
 					ksha
@@ -1482,6 +1546,7 @@ portrait_groups = {
 					blackheart3
 					blackheart4
 					blackheart5
+					blackheart6
 					nextblack
 					blacksister
 					blacksister2
