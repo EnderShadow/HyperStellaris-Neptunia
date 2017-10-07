@@ -51,6 +51,34 @@
  tari_system_initializer_NAME:0 "Tari System"
  tari_system_initializer_DESC:0 "Start the game from the perspective of Tari."
  ####################################
+ # Custom Planet Classes
+ ####################################
+ pc_asteroid_ha:0 "Asteroid"
+ pc_asteroid_ha_desc:0 "A larger asteroid or planetoid standing out in the dense cluster of smaller bodies."
+ pc_barren_ha:0 "Barren World"
+ pc_barren_ha_desc:0 "Barren and rocky world with a thin or non-existent atmosphere. The surface is covered in meteor impact craters and seemingly devoid of life."
+ pc_arctic_un:0 "Arctic World"
+ pc_arctic_un_desc:0 "Frigid, rocky world with a nitrogen-oxygen atmosphere. The poles are big, and significant water deposits can be found permanently frozen as glacial ice."
+ pc_tropical_un:0 "Tropical World"
+ pc_tropical_un_desc:0 "Humid, rocky world with a thick nitrogen-oxygen atmosphere. Seasons with significant precipitation are interchanged with drier periods. Most landmasses are covered in dense vegetation."
+ pc_ocean_un:0 "Ocean World"
+ pc_ocean_un_desc:0 "Rocky world with a nitrogen-oxygen atmosphere and a significant hydrosphere. Oceans cover more than §Y90%§! of the surface, with scattered islands making up the remaining percentage."
+ pc_arid_un:0 "Arid World"
+ pc_arid_un_desc:0 "Dry, rocky world with a nitrogen-oxygen atmosphere. The dust-covered terrain consists largely of mesas and canyons. Forests can be found in the more temperate polar regions, but vegetation is otherwise scarce."
+ pc_tundra_un:0 "Tundra World"
+ pc_tundra_un_desc:0 "Cold and rocky world with a nitrogen-oxygen atmosphere. Permafrost covers most of the surface except for the more temperate equatorial regions. A stable biosphere exists but vegetation is mostly limited to mosses and lichens."
+ pc_continental_un:0 "Continental World"
+ pc_continental_un_desc:0 "Rocky world with a nitrogen-oxygen atmosphere. Active and stable hydrosphere. Great landmasses are separated by oceans, with large climate variations depending on latitude and precipitation."
+ pc_desert_un:0 "Desert World"
+ pc_desert_un_desc:0 "Dry, rocky world with a nitrogen-oxygen atmosphere. Precipitation and major bodies of surface water are relatively rare. Significant temperature variations between day and night cycles. Vegetation is scarce, but even moderate precipitation can make the desert bloom."
+ ####################################
+ # Custom Terrain Tiles
+ ####################################
+ pc_asteroid_ha_tile:0 "Asteroid Terrain"
+ pc_asteroid_ha_tile_desc:0 "In a crater, this place looks fairly sheltered from being pelted by space debris."
+ pc_barren_ha_tile:0 "Barren Terrain"
+ pc_barren_ha_tile_desc:0 "Barren and dry terrain with no vegetation and sparse with meteor craters."
+ ####################################
  # Civics
  ####################################
  civic_cpu:0 "CPU"
