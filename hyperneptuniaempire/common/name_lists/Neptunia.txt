@@ -1,5 +1,7 @@
 ﻿### Hyperdimension Neptunia
 Neptunia = {
+	alias = "NEP1"
+	
 	ship_names = {
 
 		generic = {
@@ -41,14 +43,10 @@ Neptunia = {
 		#terraform_station = { }
 		observation_station = { }
 		outpost_station = {
-			random_names = {
-				"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider  "Home Turf" Wide
-			}
+			#random_names = {
+			#	"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider  "Home Turf" Wide
+			#}
 			#sequential_name = "%O% Frontier Outpost"
-		}
-		
-		transport = {
-			Casette Disk_Card DL-ROM Large_USB_Memory Green_Light_Disk Floppy_Disk Casette_2 Disk_Card_B Disk_Card_D DC-ROM Gold_Disc Mega_ROM Media_Card NO_Disk USB_Thumb_Drive Shock_108M_ROM Optical_Disk VDD-ROM SE_Card Flash_Memory 108G_Power_ROM 5DD-ROM Memory_Stick External_HHD Blue_Light_Disk Red_Light_Disk Terabyte_Disk External_SSD Ultra_USB_Memory S_Media_Card Purple_Ray_Disk Infinite_Disk Ultimate_Disk
 		}
 		
 		military_station_small = {}
@@ -83,6 +81,12 @@ Neptunia = {
 		# "Battlestation Impregnable" "Battlestation Insurmountable" "Battlestation Impenetrable" "Battlestation Unbreakable" "Battlestation Implacable" 
 		# "Battlestation Impervious" "Battlestation Unswerving" "Battlestation Inexorable" "Battlestation Inflexible" "Battlestation Unyielding"
 		
+	}
+	
+	ship_class_names = {
+		generic = {
+			Casette Disk_Card DL-ROM Large_USB_Memory Green_Light_Disk Floppy_Disk Casette_2 Disk_Card_B Disk_Card_D DC-ROM Gold_Disc Mega_ROM Media_Card NO_Disk USB_Thumb_Drive Shock_108M_ROM Optical_Disk VDD-ROM SE_Card Flash_Memory 108G_Power_ROM 5DD-ROM Memory_Stick External_HHD Blue_Light_Disk Red_Light_Disk Terabyte_Disk External_SSD Ultra_USB_Memory S_Media_Card Purple_Ray_Disk Infinite_Disk Ultimate_Disk
+		}
 	}
 
 	fleet_names = {
