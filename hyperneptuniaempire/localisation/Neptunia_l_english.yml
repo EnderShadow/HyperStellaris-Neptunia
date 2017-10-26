@@ -84,7 +84,7 @@
  civic_cpu:0 "CPU"
  civic_cpu_desc:0 "This country is ruled by a CPU."
  ####################################
- # Civics
+ # Ascension Perks
  ####################################
  ap_cpu_ascension:0 "CPU Ascension"
  ap_cpu_ascension_desc:0 "Your people's faith in you has turned you into a Console Patron Unit. With this newfound power you can become the most powerful nation in the galaxy"
