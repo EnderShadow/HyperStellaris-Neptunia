@@ -7,7 +7,7 @@ portraits = {
 	purpleheart5	= { texturefile = "gfx/models/portraits/neptunias/4goph.dds" }
 	nextpurple		= { texturefile = "gfx/models/portraits/neptunias/nextpurple.dds" }
 	orangeheart		= { texturefile = "gfx/models/portraits/neptunias/orangeheart.dds"}
-	orangeheart2	= { texturefile = "gfx/models/portraits/neptunias/orangeheart.dds"}
+	orangeheart2	= { texturefile = "gfx/models/portraits/neptunias/orangeheart2.dds"}
 	irisheart		= { texturefile = "gfx/models/portraits/neptunias/irisheart.dds" }
 	irisheart2		= { texturefile = "gfx/models/portraits/neptunias/irisheart2.dds" }
 	purplesister	= { texturefile = "gfx/models/portraits/neptunias/purplesister.dds" }
