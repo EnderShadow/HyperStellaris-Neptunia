@@ -62,7 +62,7 @@ nep_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_barren"
+		class = "pc_arid"
 		orbit_distance = 20
 		orbit_angle = 60
 		size = 25
@@ -93,7 +93,7 @@ nep_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_frozen"
+		class = "pc_arctic"
 		orbit_distance = 30
 		orbit_angle = -160
 		size = 25
@@ -131,7 +131,7 @@ nep_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_toxic"
+		class = "pc_tropical"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -145,7 +145,7 @@ nep_system_initializer = {
 	
 	planet = {
 		name = "Tari"
-		class = "pc_barren"
+		class = "pc_desert"
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_distance = -50
 		orbit_angle = -210
@@ -240,7 +240,7 @@ blnc_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_toxic"
+		class = "pc_continental"
 		orbit_distance = 40
 		orbit_angle = 120
 		size = 25
@@ -263,7 +263,7 @@ blnc_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_barren"
+		class = "pc_arid"
 		orbit_distance = 20
 		orbit_angle = 60
 		size = 25
@@ -340,7 +340,7 @@ blnc_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_toxic"
+		class = "pc_tropical"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -354,7 +354,7 @@ blnc_system_initializer = {
 	
 	planet = {
 		name = "Tari"
-		class = "pc_barren"
+		class = "pc_desert"
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_distance = -50
 		orbit_angle = -210
@@ -448,7 +448,7 @@ noir_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_toxic"
+		class = "pc_continental"
 		orbit_distance = 40
 		orbit_angle = 120
 		size = 25
@@ -510,7 +510,7 @@ noir_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_frozen"
+		class = "pc_arctic"
 		orbit_distance = 30
 		orbit_angle = -160
 		size = 25
@@ -548,7 +548,7 @@ noir_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_toxic"
+		class = "pc_tropical"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -562,7 +562,7 @@ noir_system_initializer = {
 	
 	planet = {
 		name = "Tari"
-		class = "pc_barren"
+		class = "pc_desert"
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_distance = -50
 		orbit_angle = -210
@@ -656,7 +656,7 @@ vert_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_toxic"
+		class = "pc_continental"
 		orbit_distance = 40
 		orbit_angle = 120
 		size = 25
@@ -679,7 +679,7 @@ vert_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_barren"
+		class = "pc_arid"
 		orbit_distance = 20
 		orbit_angle = 60
 		size = 25
@@ -710,7 +710,7 @@ vert_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_frozen"
+		class = "pc_arctic"
 		orbit_distance = 30
 		orbit_angle = -160
 		size = 25
@@ -770,7 +770,7 @@ vert_system_initializer = {
 	
 	planet = {
 		name = "Tari"
-		class = "pc_barren"
+		class = "pc_desert"
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_distance = -50
 		orbit_angle = -210
@@ -864,7 +864,7 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Planeptune"
-		class = "pc_toxic"
+		class = "pc_continental"
 		orbit_distance = 40
 		orbit_angle = 120
 		size = 25
@@ -887,7 +887,7 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Lastation"
-		class = "pc_barren"
+		class = "pc_arid"
 		orbit_distance = 20
 		orbit_angle = 60
 		size = 25
@@ -918,7 +918,7 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Lowee"
-		class = "pc_frozen"
+		class = "pc_arctic"
 		orbit_distance = 30
 		orbit_angle = -160
 		size = 25
@@ -956,7 +956,7 @@ tari_system_initializer = {
 	
 	planet = {
 		name = "Leanbox"
-		class = "pc_toxic"
+		class = "pc_tropical"
 		orbit_distance = 120
 		orbit_angle = -195
 		size = 25
@@ -1905,7 +1905,7 @@ gamindustri_system_initializer = {
 	
 	planet = {
 		name = "Tari"
-		class = "pc_barren"
+		class = "pc_desert"
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_distance = -50
 		orbit_angle = -210
