@@ -46,7 +46,7 @@
 		hair = 0
 		clothes = 0
 		ruler_title_female="Console Patron Unit"
-		heir_title_female="Purple Sister"
+		heir_title_female="CPU Candidate"
 	}
 	spawn_enabled = no
 	ethic = "ethic_xenophile"
@@ -107,7 +107,7 @@
 		hair = 0
 		clothes = 0
 		ruler_title_female="Console Patron Unit"
-		heir_title_female="Black Sister"
+		heir_title_female="CPU Candidate"
 	}
 	spawn_enabled = no
 	ethic = "ethic_materialist"
@@ -168,7 +168,7 @@
 		hair = 0
 		clothes = 0
 		ruler_title_female="Console Patron Unit"
-		heir_title_female="White Sisters"
+		heir_title_female="CPU Candidates"
 	}
 	spawn_enabled = no
 	ethic = "ethic_xenophobe"
@@ -345,7 +345,7 @@
 	
 	ruler = {
 		gender = female
-		name = "Blue Heart"
+		name = "Rei Ryghts"
 		portrait = "blueheart"
 		texture = 0
 		hair = 0
