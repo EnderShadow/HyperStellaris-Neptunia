@@ -33,21 +33,20 @@ Neptunia = {
 		}
 		
 		battleship = {
-			"Beam Katana Plus" "Beam Katana -V-" "Beam Katana EXA" Excalibur "Psyllium Blade β" "A-MN Noire" Durandal "Destruction Hammer" "Excel-Lance" "Gae Bolg" Dreadnaught "Holy Duel Lance"
+			"Beam Katana Plus" "Beam Katana -V-" "Beam Katana EXA" "Psyllium Blade β" "A-MN Noire" "Destruction Hammer" "Excel-Lance" "Gae Bolg" Dreadnaught "Holy Duel Lance"
 		}
 		
-		orbital_station = { }
+		titan = {
+			Nepgeardom Excalibur Durandal
+		}
+		
+		colossus = {
+			Gehaburn "Share Blade"
+		}
+		
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
-			#random_names = {
-			#	"Far Reach" Watchtower Sphered Influential Assertion SPACERAD "Watchful Eye" Sentinel Demarcator "Frontier Finalizer" "Ever Watchful" Divider  "Home Turf" Wide
-			#}
-			#sequential_name = "%O% Frontier Outpost"
-		}
 		
 		military_station_small = {}
 		
