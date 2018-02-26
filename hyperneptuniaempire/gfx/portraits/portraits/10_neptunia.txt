@@ -50,9 +50,9 @@ portraits = {
 	blanc4			= { texturefile = "gfx/models/portraits/neptunias/ultrablanc.dds" }
 	romram			= { texturefile = "gfx/models/portraits/neptunias/romramhuman.dds" }
 	rom				= { texturefile = "gfx/models/portraits/neptunias/rom.dds" }
-	rom2			= { texturefile = "gfx/models/portraits/neptunias/rom.dds" }
+	rom2			= { texturefile = "gfx/models/portraits/neptunias/rom2.dds" }
 	ram				= { texturefile = "gfx/models/portraits/neptunias/ram.dds" }
-	ram2			= { texturefile = "gfx/models/portraits/neptunias/ram.dds" }
+	ram2			= { texturefile = "gfx/models/portraits/neptunias/ram2.dds" }
 	csha			= { texturefile = "gfx/models/portraits/neptunias/csha.dds" }
 
 ####LASTATION##########
@@ -207,7 +207,9 @@ portrait_groups = {
 					blanc3
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					blackheart
 					blackheart2
 					blackheart3
@@ -343,7 +345,9 @@ portrait_groups = {
 					blanc3
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					blackheart
 					blackheart2
 					blackheart3
@@ -479,7 +483,9 @@ portrait_groups = {
 					blanc3
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					blackheart
 					blackheart2
 					blackheart3
@@ -616,7 +622,9 @@ portrait_groups = {
 					blanc3
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					blackheart
 					blackheart2
 					blackheart3
@@ -752,7 +760,9 @@ portrait_groups = {
 					blanc3
 					romram
 					rom
+					rom2
 					ram
+					ram2
 					blackheart
 					blackheart2
 					blackheart3
