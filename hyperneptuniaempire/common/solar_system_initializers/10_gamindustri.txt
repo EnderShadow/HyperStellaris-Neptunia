@@ -3,7 +3,10 @@ nep_system_initializer = {
 	name = "Gamindustri"
 	
 	class = "sc_g"
-	asteroids_distance = 200
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 200
+	}
 	
 	flags = { gamindustri_system }
 	
@@ -210,7 +213,10 @@ blnc_system_initializer = {
 	name = "Gamindustri"
 	
 	class = "sc_g"
-	asteroids_distance = 200
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 200
+	}
 	
 	flags = { gamindustri_system }
 	
@@ -419,7 +425,10 @@ noir_system_initializer = {
 	name = "Gamindustri"
 	
 	class = "sc_g"
-	asteroids_distance = 200
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 200
+	}
 	
 	flags = { gamindustri_system }
 	
@@ -627,7 +636,10 @@ vert_system_initializer = {
 	name = "Gamindustri"
 	
 	class = "sc_g"
-	asteroids_distance = 200
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 200
+	}
 	
 	flags = { gamindustri_system }
 	
@@ -835,7 +847,10 @@ tari_system_initializer = {
 	name = "Gamindustri"
 	
 	class = "sc_g"
-	asteroids_distance = 200
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 200
+	}
 	
 	flags = { gamindustri_system }
 	
@@ -1044,7 +1059,10 @@ gamindustri_system_initializer = {
 	name = "Gamindustri"
 	
 	class = "sc_g"
-	asteroids_distance = 200
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 200
+	}
 	
 	flags = { gamindustri_system }
 	
