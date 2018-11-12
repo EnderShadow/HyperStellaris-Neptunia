@@ -1068,7 +1068,7 @@ gamindustri_system_initializer = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 200
+		base = 1000000
 		modifier = {
 			any_system = {
 				has_star_flag = gamindustri_system
@@ -1077,6 +1077,7 @@ gamindustri_system_initializer = {
 		}
 	}
 	max_instances = 1
+	scaled_spawn_chance = 2	# scales by galaxy size (1000 stars = 10x base)
 	
 	planet = {
 		name = "Gamindustri"

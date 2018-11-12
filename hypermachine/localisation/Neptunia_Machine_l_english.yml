@@ -1,0 +1,21 @@
+﻿l_english:
+
+ ####################################
+ # Species Classes
+ ####################################
+ Neptunia_Machine:0 "Neptunia (Machine)"
+ Neptunia_Machine_desc:1 "Species Class has no effect on your Empire, but CPU-class Species may consider other CPUs to be less alien than other Species Classes."
+ Neptunia_Machine_plural:0 "Neptunians"
+ Neptunia_Machine_insult_01:0 "compiled data"
+ Neptunia_Machine_insult_plural_01:0 "bunch of data"
+ Neptunia_Machine_compliment_01:0 "well-defined user"
+ Neptunia_Machine_compliment_plural_01:0 "well-defined users"
+ Neptunia_Machine_spawn:0 "bit"
+ Neptunia_Machine_spawn_plural:0 "byte"
+ Neptunia_Machine_sound_01:0 "scratching"
+ Neptunia_Machine_sound_02:0 "compiling"
+ Neptunia_Machine_sound_03:0 "analyzing"
+ Neptunia_Machine_sound_04:0 "erasing"
+ Neptunia_Machine_sound_05:0 "installing"
+ Neptunia_Machine_organ:0 "disc drive"
+ Neptunia_Machine_mouth:0 "USB-connector"

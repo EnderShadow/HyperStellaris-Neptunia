@@ -1,0 +1,44 @@
+Neptunia_Machine = {
+	planeptune_m = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Planeptune"
+		home_system = Gamindustri
+		name_list = "Neptunia"
+	}
+	lowee_m = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Lowee"
+		home_system = Gamindustri
+		name_list = "Neptunia"
+	}
+	leanbox_m = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Leanbox"
+		home_system = Gamindustri
+		name_list = "Neptunia"
+	}
+	lastation_m = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Lastation"
+		home_system = Gamindustri
+		name_list = "Neptunia"
+	}
+	eden_m = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Eden"
+		home_system = Gamindustri
+		name_list = "Neptunia"
+	}
+	tari_m = {
+		name = "CPU"
+		plural = "CPUs"
+		home_planet = "Tari"
+		home_system = Gamindustri
+		name_list = "Neptunia"
+	}
+}
