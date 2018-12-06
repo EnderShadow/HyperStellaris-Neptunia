@@ -9,6 +9,17 @@ nep_system_initializer = {
 	}
 	
 	flags = { gamindustri_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		generate_home_system_resources = yes
+	}
 	
 	usage = custom_empire
 	max_instances = 1
@@ -17,6 +28,8 @@ nep_system_initializer = {
 		name = "Gamindustri"
 		class= "pc_g_star"
 		orbit_distance = 0
+		size = { min = 20 max = 30 }
+		has_ring = no
 	}
 	
 	planet = {
@@ -42,7 +55,7 @@ nep_system_initializer = {
 		home_planet = yes
 		starting_planet = yes
 		has_ring = yes
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -50,7 +63,7 @@ nep_system_initializer = {
 		}
 		
 		init_effect = {
-			generate_start_buildings_and_blockers = yes		
+			generate_empire_home_planet = yes		
 		}
 		
 		moon = {
@@ -219,6 +232,17 @@ blnc_system_initializer = {
 	}
 	
 	flags = { gamindustri_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		generate_home_system_resources = yes
+	}
 	
 	usage = custom_empire
 	max_instances = 1
@@ -227,6 +251,8 @@ blnc_system_initializer = {
 		name = "Gamindustri"
 		class= "pc_g_star"
 		orbit_distance = 0
+		size = { min = 20 max = 30 }
+		has_ring = no
 	}
 	
 	planet = {
@@ -235,7 +261,6 @@ blnc_system_initializer = {
 		orbit_distance = 50
 		orbit_angle = 15
 		size = 15
-		has_ring = no
 		has_ring = no
 		modifiers = none
 		
@@ -251,7 +276,6 @@ blnc_system_initializer = {
 		orbit_angle = 120
 		size = 25
 		has_ring = yes
-		modifiers = none
 		
 		init_effect = {
 			prevent_anomaly = yes
@@ -307,7 +331,7 @@ blnc_system_initializer = {
 		home_planet = yes
 		starting_planet = yes
 		has_ring = yes
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -315,7 +339,7 @@ blnc_system_initializer = {
 		}
 		
 		init_effect = {
-			generate_start_buildings_and_blockers = yes		
+			generate_empire_home_planet = yes		
 		}
 		
 		moon = {
@@ -431,6 +455,17 @@ noir_system_initializer = {
 	}
 	
 	flags = { gamindustri_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		generate_home_system_resources = yes
+	}
 	
 	usage = custom_empire
 	max_instances = 1
@@ -439,6 +474,8 @@ noir_system_initializer = {
 		name = "Gamindustri"
 		class= "pc_g_star"
 		orbit_distance = 0
+		size = { min = 20 max = 30 }
+		has_ring = no
 	}
 	
 	planet = {
@@ -462,7 +499,6 @@ noir_system_initializer = {
 		orbit_angle = 120
 		size = 25
 		has_ring = yes
-		modifiers = none
 		
 		init_effect = {
 			prevent_anomaly = yes
@@ -477,7 +513,7 @@ noir_system_initializer = {
 			has_ring = no
 		}
 	}
-
+	
 	planet = {
 		name = "Lastation"
 		class = "pc_arid"
@@ -486,8 +522,8 @@ noir_system_initializer = {
 		size = 25
 		home_planet = yes
 		starting_planet = yes
-		has_ring = no
-		tile_blockers = none
+		has_ring = yes
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -495,7 +531,7 @@ noir_system_initializer = {
 		}
 		
 		init_effect = {
-			generate_start_buildings_and_blockers = yes		
+			generate_empire_home_planet = yes		
 		}
 		
 		moon = {
@@ -563,7 +599,7 @@ noir_system_initializer = {
 		size = 25
 		has_ring = no
 		change_orbit = 4
-
+		
 		init_effect = {
 			prevent_anomaly = yes
 		}
@@ -642,6 +678,17 @@ vert_system_initializer = {
 	}
 	
 	flags = { gamindustri_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		generate_home_system_resources = yes
+	}
 	
 	usage = custom_empire
 	max_instances = 1
@@ -650,6 +697,8 @@ vert_system_initializer = {
 		name = "Gamindustri"
 		class= "pc_g_star"
 		orbit_distance = 0
+		size = { min = 20 max = 30 }
+		has_ring = no
 	}
 	
 	planet = {
@@ -673,7 +722,6 @@ vert_system_initializer = {
 		orbit_angle = 120
 		size = 25
 		has_ring = yes
-		modifiers = none
 		
 		init_effect = {
 			prevent_anomaly = yes
@@ -695,7 +743,7 @@ vert_system_initializer = {
 		orbit_distance = 20
 		orbit_angle = 60
 		size = 25
-		has_ring = no
+		has_ring = yes
 		
 		init_effect = {
 			prevent_anomaly = yes
@@ -767,16 +815,16 @@ vert_system_initializer = {
 		home_planet = yes
 		starting_planet = yes
 		has_ring = no
-		change_orbit = 4
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
+		change_orbit = 4
 		
 		init_effect = {
 			prevent_anomaly = yes
 		}
 		
 		init_effect = {
-			generate_start_buildings_and_blockers = yes		
+			generate_empire_home_planet = yes		
 		}
 	}
 	
@@ -853,6 +901,17 @@ tari_system_initializer = {
 	}
 	
 	flags = { gamindustri_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		
+		generate_home_system_resources = yes
+	}
 	
 	usage = custom_empire
 	max_instances = 1
@@ -861,6 +920,8 @@ tari_system_initializer = {
 		name = "Gamindustri"
 		class= "pc_g_star"
 		orbit_distance = 0
+		size = { min = 20 max = 30 }
+		has_ring = no
 	}
 	
 	planet = {
@@ -884,7 +945,6 @@ tari_system_initializer = {
 		orbit_angle = 120
 		size = 25
 		has_ring = yes
-		modifiers = none
 		
 		init_effect = {
 			prevent_anomaly = yes
@@ -906,7 +966,7 @@ tari_system_initializer = {
 		orbit_distance = 20
 		orbit_angle = 60
 		size = 25
-		has_ring = no
+		has_ring = yes
 		
 		init_effect = {
 			prevent_anomaly = yes
@@ -977,7 +1037,7 @@ tari_system_initializer = {
 		size = 25
 		has_ring = no
 		change_orbit = 4
-
+		
 		init_effect = {
 			prevent_anomaly = yes
 		}
@@ -993,7 +1053,7 @@ tari_system_initializer = {
 		home_planet = yes
 		starting_planet = yes
 		has_ring = yes
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -1001,9 +1061,9 @@ tari_system_initializer = {
 		}
 		
 		init_effect = {
-			generate_start_buildings_and_blockers = yes		
+			generate_empire_home_planet = yes		
 		}
-		
+
 		moon = {
 			name = "Tari 2600"
 			class = "pc_asteroid"
@@ -1069,6 +1129,7 @@ gamindustri_system_initializer = {
 	usage = misc_system_init
 	usage_odds = 0
 	max_instances = 1
+	scaled_spawn_chance = 2	# scales by galaxy size (1000 stars = 10x base)
 	
 	planet = {
 		name = "Gamindustri"
@@ -1097,7 +1158,7 @@ gamindustri_system_initializer = {
 		orbit_angle = 120
 		size = 25
 		has_ring = yes
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -1161,125 +1222,28 @@ gamindustri_system_initializer = {
 			set_owner = last_created_country
 			set_capital = yes
 			
+			create_primitive_blockers = yes
+
 			while = {
-				count = 3
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_decrepit_dwellings
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_failing_infrastructure
+				count = 24
+				create_pop = {
+					species = last_created
 				}
 			}
+			add_building = building_primitive_farm
+			add_building = building_primitive_factory
+			add_building = building_primitive_mine
+			add_building = building_primitive_power_plant
+			add_building = building_primitive_capital
+			add_building = building_urban_dwellings
+			
 			while = {
 				count = 5
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 2
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 4
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_farm"
-					set_deposit = d_farmland_deposit
-				}
-			}
-			last_created_country = {
-				if = {
-					limit = { has_country_flag = industrial_age }
-					PREV = {
-						while = {
-							count = 4
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
-				}
-				if = {
-					limit = { has_country_flag = machine_age }
-					PREV = {
-						while = {
-							count = 5
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
+				create_army = {
+					name = "NAME_Industrial_Army"
+					owner = last_created
+					species = last_created
+					type = "industrial_army"
 				}
 			}
 		}
@@ -1301,7 +1265,7 @@ gamindustri_system_initializer = {
 		orbit_angle = 60
 		size = 25
 		has_ring = no
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -1364,125 +1328,28 @@ gamindustri_system_initializer = {
 			set_owner = last_created_country
 			set_capital = yes
 			
+			create_primitive_blockers = yes
+
 			while = {
-				count = 3
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_decrepit_dwellings
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_failing_infrastructure
+				count = 24
+				create_pop = {
+					species = last_created
 				}
 			}
+			add_building = building_primitive_farm
+			add_building = building_primitive_factory
+			add_building = building_primitive_mine
+			add_building = building_primitive_power_plant
+			add_building = building_primitive_capital
+			add_building = building_urban_dwellings
+			
 			while = {
 				count = 5
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 2
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 4
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_farm"
-					set_deposit = d_farmland_deposit
-				}
-			}
-			last_created_country = {
-				if = {
-					limit = { has_country_flag = industrial_age }
-					PREV = {
-						while = {
-							count = 4
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
-				}
-				if = {
-					limit = { has_country_flag = machine_age }
-					PREV = {
-						while = {
-							count = 5
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
+				create_army = {
+					name = "NAME_Industrial_Army"
+					owner = last_created
+					species = last_created
+					type = "industrial_army"
 				}
 			}
 		}
@@ -1513,7 +1380,7 @@ gamindustri_system_initializer = {
 		orbit_angle = -160
 		size = 25
 		has_ring = yes
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -1577,125 +1444,28 @@ gamindustri_system_initializer = {
 			set_owner = last_created_country
 			set_capital = yes
 			
+			create_primitive_blockers = yes
+
 			while = {
-				count = 3
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_decrepit_dwellings
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_failing_infrastructure
+				count = 24
+				create_pop = {
+					species = last_created
 				}
 			}
+			add_building = building_primitive_farm
+			add_building = building_primitive_factory
+			add_building = building_primitive_mine
+			add_building = building_primitive_power_plant
+			add_building = building_primitive_capital
+			add_building = building_urban_dwellings
+			
 			while = {
 				count = 5
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 2
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 4
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_farm"
-					set_deposit = d_farmland_deposit
-				}
-			}
-			last_created_country = {
-				if = {
-					limit = { has_country_flag = industrial_age }
-					PREV = {
-						while = {
-							count = 4
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
-				}
-				if = {
-					limit = { has_country_flag = machine_age }
-					PREV = {
-						while = {
-							count = 5
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
+				create_army = {
+					name = "NAME_Industrial_Army"
+					owner = last_created
+					species = last_created
+					type = "industrial_army"
 				}
 			}
 		}
@@ -1734,7 +1504,7 @@ gamindustri_system_initializer = {
 		size = 25
 		has_ring = no
 		change_orbit = 4
-		tile_blockers = none
+		deposit_blockers = none
 		modifiers = none
 		
 		init_effect = {
@@ -1797,125 +1567,28 @@ gamindustri_system_initializer = {
 			set_owner = last_created_country
 			set_capital = yes
 			
+			create_primitive_blockers = yes
+
 			while = {
-				count = 3
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_decrepit_dwellings
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = no
-					}
-					set_blocker = tb_failing_infrastructure
+				count = 24
+				create_pop = {
+					species = last_created
 				}
 			}
+			add_building = building_primitive_farm
+			add_building = building_primitive_factory
+			add_building = building_primitive_mine
+			add_building = building_primitive_power_plant
+			add_building = building_primitive_capital
+			add_building = building_urban_dwellings
+			
 			while = {
 				count = 5
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_grown_pop = no
-						has_growing_pop = no
-					}
-					create_pop = {
-						species = last_created
-					}
-				}
-			}
-			if = {
-				limit = {
-					last_created_country = {
-						has_country_flag = machine_age
-					}
-				}
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 2
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_factory"
-					set_deposit = d_mineral_deposit
-				}
-			}
-			while = {
-				count = 4
-				random_tile = {
-					limit = {
-						has_blocker = no
-						has_building = no
-						has_grown_pop = yes
-					}
-					set_building = "building_primitive_farm"
-					set_deposit = d_farmland_deposit
-				}
-			}
-			last_created_country = {
-				if = {
-					limit = { has_country_flag = industrial_age }
-					PREV = {
-						while = {
-							count = 4
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
-				}
-				if = {
-					limit = { has_country_flag = machine_age }
-					PREV = {
-						while = {
-							count = 5
-							create_army = {
-								name = "NAME_Industrial_Army"
-								owner = last_created
-								species = last_created
-								type = "industrial_army"
-							}
-						}
-					}
-					break = yes
+				create_army = {
+					name = "NAME_Industrial_Army"
+					owner = last_created
+					species = last_created
+					type = "industrial_army"
 				}
 			}
 		}

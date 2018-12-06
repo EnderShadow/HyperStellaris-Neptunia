@@ -12,7 +12,9 @@ ap_cpu_ascension = {
 				civic = civic_cpu
 			}
 		}
-		add_influence = 250
+		add_resource = {
+			influence = 250
+		}
 	}
 	possible = {
 		custom_tooltip = {

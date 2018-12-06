@@ -37,12 +37,12 @@ civic_cpu = {
 	}
 	
 	modifier = {
-		army_upkeep_mult = -0.5
-		ship_upkeep_mult = -0.5
+		armies_upkeep_mult = -0.5
+		ships_upkeep_mult = -0.5
 		country_ship_upgrade_cost_mult = -0.5
-		planet_building_cost_mult = -0.2
+		planet_structures_cost_mult = -0.2
 		all_technology_research_speed = 0.3
-		country_resource_unity_mult = 0.3
-		country_resource_minerals_mult = 0.2
+		country_unity_produces_mult = 0.3
+		country_minerals_produces_mult = 0.2
 	}
 }

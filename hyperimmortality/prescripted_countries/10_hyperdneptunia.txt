@@ -10,7 +10,6 @@
 	name = "Hyperdimension Neptunia"
 	adjective = "Goddesses"
 	government = "cpu_mandate"
-	ftl = warp
 	weapon = "tech_lasers_1"
 	planet_name = "Planeptune"
 	planet_class = "pc_continental"
@@ -71,7 +70,6 @@
 	name = "Hyperdevotion Noire"
 	adjective = "Goddesses"
 	government = "cpu_mandate"
-	ftl = warp
 	weapon = "tech_lasers_1"
 	planet_name = "Lastation"
 	planet_class = "pc_arid"
@@ -132,7 +130,6 @@
 	name = "MegaTagmension Blanc"
 	adjective = "Goddesses"
 	government = "cpu_dual_mandate"
-	ftl = warp
 	weapon = "tech_lasers_1"
 	planet_name = "Lowee"
 	planet_class = "pc_arctic"
@@ -194,7 +191,6 @@
 	name = "Ultradimension Vert"
 	adjective = "Goddesses"
 	government = "cpu_solo_mandate"
-	ftl = warp
 	weapon = "tech_lasers_1"
 	planet_name = "Leanbox"
 	planet_class = "pc_tropical"
@@ -254,7 +250,6 @@
 	name = "Megadimension Plutia"
 	adjective = "Goddesses"
 	government = "cpu_solo_mandate"
-	ftl = warp
 	weapon = "tech_lasers_1"
 	planet_name = "Planeptune"
 	planet_class = "pc_continental"
@@ -315,7 +310,6 @@
 	name = "Ultradimension Rei"
 	adjective = "Goddesses"
 	government = "cpu_solo_mandate"
-	ftl = warp
 	weapon = "tech_lasers_1"
 	planet_name = "Tari"
 	planet_class = "pc_desert"
