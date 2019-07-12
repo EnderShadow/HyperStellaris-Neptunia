@@ -1,4 +1,4 @@
-name="Hypergalactic Neptunia Lonely Universe mod"
+name="Hypergalactic Neptunia Cold Lonely UNI-verse mod"
 path="mod/hypersolo"
 dependencies={
 	"Hypergalactic Neptunia Empire mod"
