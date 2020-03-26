@@ -1,10 +1,9 @@
 name="Hypergalactic Neptunia Empire mod"
-path="mod/hyperneptuniaempire"
 tags={
 	"Graphics"
 	"Species"
 	"Leaders"
 	"Gameplay"
 }
-picture="thumb.jpg"
-supported_version="2.3.*"
+picture="thumbnail.png"
+supported_version="2.6.*"

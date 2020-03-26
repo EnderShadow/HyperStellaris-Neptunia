@@ -1,11 +1,10 @@
 name="Hypergalactic Neptunia Empire mod"
-path="mod/hyperneptuniaempire"
 tags={
 	"Graphics"
 	"Species"
 	"Leaders"
 	"Gameplay"
 }
-picture="thumb.jpg"
-remote_file_id="696538217"
-supported_version="2.3.*"
+picture="thumbnail.png"
+supported_version="2.6.*"
+path="/home/matthew/.local/share/Paradox Interactive/Stellaris/mod/hyperneptuniaempire"

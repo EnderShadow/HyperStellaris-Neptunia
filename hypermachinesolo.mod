@@ -1,12 +1,11 @@
 name="Hypergalactic Neptunia Machine No AI addon"
-path="mod/hypermachinesolo"
 dependencies={
 	"Hypergalactic Neptunia Machine addon"
 }
-replace_path="Hypergalactic Neptunia Empire mod"
 tags={
 	"Species"
 }
-picture="thumb.jpg"
+picture="thumbnail.png"
+supported_version="2.6.*"
+path="/home/matthew/.local/share/Paradox Interactive/Stellaris/mod/hypermachinesolo"
 remote_file_id="1519079802"
-supported_version="2.3.*"

@@ -1,10 +1,10 @@
 name="Hypergalactic Neptunia Machine addon"
-path="mod/hypermachine"
 dependencies={
 	"Hypergalactic Neptunia Empire mod"
 }
 tags={
 	"Species"
 }
-picture="thumb.jpg"
-supported_version="2.3.*"
+picture="thumbnail.png"
+supported_version="2.6.*"
+remote_file_id="1519079739"

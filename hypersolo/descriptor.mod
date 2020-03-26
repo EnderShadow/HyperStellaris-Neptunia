@@ -1,10 +1,10 @@
 name="Hypergalactic Neptunia Cold Lonely UNI-verse mod"
-path="mod/hypersolo"
 dependencies={
 	"Hypergalactic Neptunia Empire mod"
 }
 tags={
 	"Fixes"
 }
-picture="thumb.jpg"
-supported_version="2.3.*"
+picture="thumbnail.png"
+supported_version="2.6.*"
+remote_file_id="766990769"
