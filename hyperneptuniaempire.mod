@@ -6,5 +6,5 @@ tags={
 	"Gameplay"
 }
 picture="thumbnail.png"
+remote_file_id="696538217"
 supported_version="2.6.*"
-path="/home/matthew/.local/share/Paradox Interactive/Stellaris/mod/hyperneptuniaempire"

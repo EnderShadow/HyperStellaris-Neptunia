@@ -7,5 +7,5 @@ tags={
 	"Fixes"
 }
 picture="thumbnail.png"
+remote_file_id="698868003"
 supported_version="2.6.*"
-path="/home/matthew/.local/share/Paradox Interactive/Stellaris/mod/hyperimmortality"

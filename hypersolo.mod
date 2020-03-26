@@ -7,5 +7,4 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="2.6.*"
-path="/home/matthew/.local/share/Paradox Interactive/Stellaris/mod/hypersolo"
 remote_file_id="766990769"
