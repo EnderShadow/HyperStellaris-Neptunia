@@ -1,10 +1,11 @@
-name="Hypergalactic Neptunia Machine addon"
+name="Hypergalactic Neptunia Empire Immortality Addon"
 dependencies={
 	"Hypergalactic Neptunia Empire"
 }
 tags={
-	"Species"
+	"Balance"
+	"Fixes"
 }
 picture="thumbnail.png"
 supported_version="3.0.*"
-remote_file_id="1519079739"
+remote_file_id="2459102962"

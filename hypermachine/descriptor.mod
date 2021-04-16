@@ -1,6 +1,6 @@
 name="Hypergalactic Neptunia Machine addon"
 dependencies={
-	"Hypergalactic Neptunia Empire mod"
+	"Hypergalactic Neptunia Empire"
 }
 tags={
 	"Species"

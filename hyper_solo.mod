@@ -1,10 +1,10 @@
-name="Hypergalactic Neptunia Machine addon"
+name="Hypergalactic Neptunia Cold Lonely UNI-verse"
 dependencies={
 	"Hypergalactic Neptunia Empire"
 }
 tags={
-	"Species"
+	"Fixes"
 }
 picture="thumbnail.png"
 supported_version="3.0.*"
-remote_file_id="1519079739"
+remote_file_id="2459096779"
